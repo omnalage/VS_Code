@@ -1,0 +1,21 @@
+body {
+    font-family: monospace;
+  /*   text-align: center; */
+    margin-top: 30px;
+  }
+  
+  #container {
+    width: 90%;
+    height: 400px;
+  }
+  
+  /* No flexbox: just place both dragons at left */
+  img {
+  /*   position: absolute; */
+    left: 20px;
+    height: 100px;
+    cursor: grab;
+  }
+  
+  
+  

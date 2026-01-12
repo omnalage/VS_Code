@@ -1,0 +1,754 @@
+[2025-11-09 22:15:42.321000] Received interest for cat_image13.jpg with ID 115 from Subscriber Subscriber10
+[2025-11-09 22:15:42.321271] Cache miss: Fetching cat_image13.jpg with ID 115 from Publisher or other routers
+[2025-11-09 22:15:42.552290] Received interest for cat_image27.jpg with ID 149 from Subscriber Subscriber2
+[2025-11-09 22:15:42.552407] Cache miss: Fetching cat_image27.jpg with ID 149 from Publisher or other routers
+[2025-11-09 22:15:42.738589] Received interest for dog_image8.jpg with ID 160 from Subscriber Subscriber3
+[2025-11-09 22:15:42.738674] Cache miss: Fetching dog_image8.jpg with ID 160 from Publisher or other routers
+[2025-11-09 22:15:42.923215] Received interest for cat_image35.jpg with ID 139 from Subscriber Subscriber9
+[2025-11-09 22:15:42.923620] Cache miss: Fetching cat_image35.jpg with ID 139 from Publisher or other routers
+[2025-11-09 22:15:43.105025] Received interest for dog_image24.jpg with ID 165 from Subscriber Subscriber6
+[2025-11-09 22:15:43.105112] Cache miss: Fetching dog_image24.jpg with ID 165 from Publisher or other routers
+[2025-11-09 22:15:43.296271] Received interest for dog_image13.jpg with ID 183 from Subscriber Subscriber3
+[2025-11-09 22:15:43.296366] Cache miss: Fetching dog_image13.jpg with ID 183 from Publisher or other routers
+[2025-11-09 22:15:43.666582] Received interest for dog_image32.jpg with ID 167 from Subscriber Subscriber5
+[2025-11-09 22:15:43.666671] Cache miss: Fetching dog_image32.jpg with ID 167 from Publisher or other routers
+[2025-11-09 22:15:43.910942] Received interest for dog_image4.jpg with ID 192 from Subscriber Subscriber1
+[2025-11-09 22:15:43.911171] Cache miss: Fetching dog_image4.jpg with ID 192 from Publisher or other routers
+[2025-11-09 22:15:44.105229] Received interest for dog_image11.jpg with ID 181 from Subscriber Subscriber10
+[2025-11-09 22:15:44.105369] Cache miss: Fetching dog_image11.jpg with ID 181 from Publisher or other routers
+[2025-11-09 22:15:44.297437] Received interest for dog_image29.jpg with ID 188 from Subscriber Subscriber2
+[2025-11-09 22:15:44.297548] Cache miss: Fetching dog_image29.jpg with ID 188 from Publisher or other routers
+[2025-11-09 22:15:44.481951] Received interest for cat_image34.jpg with ID 136 from Subscriber Subscriber9
+[2025-11-09 22:15:44.482067] Cache miss: Fetching cat_image34.jpg with ID 136 from Publisher or other routers
+[2025-11-09 22:15:44.676868] Received interest for dog_image45.jpg with ID 152 from Subscriber Subscriber8
+[2025-11-09 22:15:44.676986] Cache miss: Fetching dog_image45.jpg with ID 152 from Publisher or other routers
+[2025-11-09 22:15:44.868189] Received interest for dog_image50.jpg with ID 154 from Subscriber Subscriber8
+[2025-11-09 22:15:44.868297] Cache miss: Fetching dog_image50.jpg with ID 154 from Publisher or other routers
+[2025-11-09 22:15:45.058470] Received interest for dog_image16.jpg with ID 185 from Subscriber Subscriber3
+[2025-11-09 22:15:45.058573] Cache miss: Fetching dog_image16.jpg with ID 185 from Publisher or other routers
+[2025-11-09 22:15:45.250936] Received interest for cat_image46.jpg with ID 125 from Subscriber Subscriber8
+[2025-11-09 22:15:45.251119] Cache miss: Fetching cat_image46.jpg with ID 125 from Publisher or other routers
+[2025-11-09 22:15:45.446641] Received interest for cat_image32.jpg with ID 147 from Subscriber Subscriber2
+[2025-11-09 22:15:45.446743] Cache miss: Fetching cat_image32.jpg with ID 147 from Publisher or other routers
+[2025-11-09 22:15:45.639259] Received interest for cat_image28.jpg with ID 107 from Subscriber Subscriber5
+[2025-11-09 22:15:45.639390] Cache miss: Fetching cat_image28.jpg with ID 107 from Publisher or other routers
+[2025-11-09 22:15:45.823201] Received interest for cat_image47.jpg with ID 126 from Subscriber Subscriber5
+[2025-11-09 22:15:45.823299] Cache miss: Fetching cat_image47.jpg with ID 126 from Publisher or other routers
+[2025-11-09 22:15:46.007235] Received interest for cat_image46.jpg with ID 125 from Subscriber Subscriber4
+[2025-11-09 22:15:46.007269] Cache miss: Fetching cat_image46.jpg with ID 125 from Publisher or other routers
+[2025-11-09 22:15:46.187220] Received interest for dog_image10.jpg with ID 180 from Subscriber Subscriber6
+[2025-11-09 22:15:46.187329] Cache miss: Fetching dog_image10.jpg with ID 180 from Publisher or other routers
+[2025-11-09 22:15:46.371188] Received interest for cat_image8.jpg with ID 132 from Subscriber Subscriber1
+[2025-11-09 22:15:46.371300] Cache miss: Fetching cat_image8.jpg with ID 132 from Publisher or other routers
+[2025-11-09 22:15:46.556849] Received interest for cat_image14.jpg with ID 108 from Subscriber Subscriber6
+[2025-11-09 22:15:46.556976] Cache miss: Fetching cat_image14.jpg with ID 108 from Publisher or other routers
+[2025-11-09 22:15:46.742915] Received interest for dog_image14.jpg with ID 190 from Subscriber Subscriber1
+[2025-11-09 22:15:46.743018] Cache miss: Fetching dog_image14.jpg with ID 190 from Publisher or other routers
+[2025-11-09 22:15:46.925050] Received interest for dog_image4.jpg with ID 192 from Subscriber Subscriber7
+[2025-11-09 22:15:46.925082] Cache miss: Fetching dog_image4.jpg with ID 192 from Publisher or other routers
+[2025-11-09 22:15:47.110531] Received interest for cat_image20.jpg with ID 137 from Subscriber Subscriber9
+[2025-11-09 22:15:47.110653] Cache miss: Fetching cat_image20.jpg with ID 137 from Publisher or other routers
+[2025-11-09 22:15:47.479610] Received interest for dog_image38.jpg with ID 179 from Subscriber Subscriber9
+[2025-11-09 22:15:47.479722] Cache miss: Fetching dog_image38.jpg with ID 179 from Publisher or other routers
+[2025-11-09 22:15:47.664110] Received interest for cat_image14.jpg with ID 108 from Subscriber Subscriber6
+[2025-11-09 22:15:47.664157] Cache miss: Fetching cat_image14.jpg with ID 108 from Publisher or other routers
+[2025-11-09 22:15:47.845233] Received interest for cat_image42.jpg with ID 124 from Subscriber Subscriber10
+[2025-11-09 22:15:47.845344] Cache miss: Fetching cat_image42.jpg with ID 124 from Publisher or other routers
+[2025-11-09 22:37:41.501904] Received interest for dog_image21.jpg with ID 178 from Subscriber Subscriber10
+[2025-11-09 22:37:41.502181] Cache miss: Fetching dog_image21.jpg with ID 178 from Publisher or other routers
+[2025-11-09 22:37:41.732810] Received interest for cat_image15.jpg with ID 103 from Subscriber Subscriber4
+[2025-11-09 22:37:41.732912] Cache miss: Fetching cat_image15.jpg with ID 103 from Publisher or other routers
+[2025-11-09 22:37:41.920068] Received interest for cat_image43.jpg with ID 123 from Subscriber Subscriber3
+[2025-11-09 22:37:41.920163] Cache miss: Fetching cat_image43.jpg with ID 123 from Publisher or other routers
+[2025-11-09 22:37:42.106395] Received interest for dog_image47.jpg with ID 151 from Subscriber Subscriber4
+[2025-11-09 22:37:42.106488] Cache miss: Fetching dog_image47.jpg with ID 151 from Publisher or other routers
+[2025-11-09 22:37:42.289959] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber12
+[2025-11-09 22:37:42.290065] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-09 22:37:42.473400] Received interest for cat_image4.jpg with ID 116 from Subscriber Subscriber6
+[2025-11-09 22:37:42.473934] Cache miss: Fetching cat_image4.jpg with ID 116 from Publisher or other routers
+[2025-11-09 22:37:42.664390] Received interest for cat_image31.jpg with ID 141 from Subscriber Subscriber3
+[2025-11-09 22:37:42.664536] Cache miss: Fetching cat_image31.jpg with ID 141 from Publisher or other routers
+[2025-11-09 22:37:42.858496] Received interest for dog_image1.jpg with ID 199 from Subscriber Subscriber6
+[2025-11-09 22:37:42.858610] Cache miss: Fetching dog_image1.jpg with ID 199 from Publisher or other routers
+[2025-11-09 22:37:43.051143] Received interest for dog_image19.jpg with ID 161 from Subscriber Subscriber1
+[2025-11-09 22:37:43.051252] Cache miss: Fetching dog_image19.jpg with ID 161 from Publisher or other routers
+[2025-11-09 22:37:43.243901] Received interest for dog_image1.jpg with ID 199 from Subscriber Subscriber9
+[2025-11-09 22:37:43.243944] Cache miss: Fetching dog_image1.jpg with ID 199 from Publisher or other routers
+[2025-11-09 22:37:43.433705] Received interest for cat_image48.jpg with ID 120 from Subscriber Subscriber6
+[2025-11-09 22:37:43.433799] Cache miss: Fetching cat_image48.jpg with ID 120 from Publisher or other routers
+[2025-11-09 22:37:43.625320] Received interest for cat_image48.jpg with ID 120 from Subscriber Subscriber10
+[2025-11-09 22:37:43.625363] Cache miss: Fetching cat_image48.jpg with ID 120 from Publisher or other routers
+[2025-11-09 22:37:43.867725] Received interest for cat_image44.jpg with ID 129 from Subscriber Subscriber2
+[2025-11-09 22:37:43.867828] Cache miss: Fetching cat_image44.jpg with ID 129 from Publisher or other routers
+[2025-11-09 22:37:44.056612] Received interest for cat_image38.jpg with ID 109 from Subscriber Subscriber7
+[2025-11-09 22:37:44.056721] Cache miss: Fetching cat_image38.jpg with ID 109 from Publisher or other routers
+[2025-11-09 22:37:44.240665] Received interest for cat_image49.jpg with ID 119 from Subscriber Subscriber11
+[2025-11-09 22:37:44.242633] Cache miss: Fetching cat_image49.jpg with ID 119 from Publisher or other routers
+[2025-11-09 22:37:44.426022] Received interest for cat_image43.jpg with ID 123 from Subscriber Subscriber7
+[2025-11-09 22:37:44.426055] Cache miss: Fetching cat_image43.jpg with ID 123 from Publisher or other routers
+[2025-11-09 22:37:44.608135] Received interest for dog_image37.jpg with ID 171 from Subscriber Subscriber10
+[2025-11-09 22:37:44.608241] Cache miss: Fetching dog_image37.jpg with ID 171 from Publisher or other routers
+[2025-11-09 22:37:44.792808] Received interest for cat_image41.jpg with ID 122 from Subscriber Subscriber5
+[2025-11-09 22:37:44.792900] Cache miss: Fetching cat_image41.jpg with ID 122 from Publisher or other routers
+[2025-11-09 22:37:44.978432] Received interest for dog_image11.jpg with ID 181 from Subscriber Subscriber6
+[2025-11-09 22:37:44.978536] Cache miss: Fetching dog_image11.jpg with ID 181 from Publisher or other routers
+[2025-11-09 22:37:45.164473] Received interest for cat_image50.jpg with ID 128 from Subscriber Subscriber8
+[2025-11-09 22:37:45.164592] Cache miss: Fetching cat_image50.jpg with ID 128 from Publisher or other routers
+[2025-11-09 22:37:45.350721] Received interest for cat_image24.jpg with ID 143 from Subscriber Subscriber4
+[2025-11-09 22:37:45.350831] Cache miss: Fetching cat_image24.jpg with ID 143 from Publisher or other routers
+[2025-11-09 22:37:45.535962] Received interest for dog_image33.jpg with ID 170 from Subscriber Subscriber10
+[2025-11-09 22:37:45.536067] Cache miss: Fetching dog_image33.jpg with ID 170 from Publisher or other routers
+[2025-11-09 22:37:45.722464] Received interest for cat_image48.jpg with ID 120 from Subscriber Subscriber11
+[2025-11-09 22:37:45.722507] Cache miss: Fetching cat_image48.jpg with ID 120 from Publisher or other routers
+[2025-11-09 22:37:45.907765] Received interest for cat_image23.jpg with ID 130 from Subscriber Subscriber1
+[2025-11-09 22:37:45.907887] Cache miss: Fetching cat_image23.jpg with ID 130 from Publisher or other routers
+[2025-11-09 22:37:46.096474] Received interest for dog_image26.jpg with ID 168 from Subscriber Subscriber5
+[2025-11-09 22:37:46.096590] Cache miss: Fetching dog_image26.jpg with ID 168 from Publisher or other routers
+[2025-11-09 22:37:46.281875] Received interest for cat_image42.jpg with ID 124 from Subscriber Subscriber11
+[2025-11-09 22:37:46.281988] Cache miss: Fetching cat_image42.jpg with ID 124 from Publisher or other routers
+[2025-11-09 22:37:46.468723] Received interest for dog_image43.jpg with ID 158 from Subscriber Subscriber6
+[2025-11-09 22:37:46.468829] Cache miss: Fetching dog_image43.jpg with ID 158 from Publisher or other routers
+[2025-11-09 22:37:46.653825] Received interest for dog_image42.jpg with ID 159 from Subscriber Subscriber5
+[2025-11-09 22:37:46.653936] Cache miss: Fetching dog_image42.jpg with ID 159 from Publisher or other routers
+[2025-11-09 22:37:46.839972] Received interest for dog_image22.jpg with ID 173 from Subscriber Subscriber11
+[2025-11-09 22:37:46.840084] Cache miss: Fetching dog_image22.jpg with ID 173 from Publisher or other routers
+[2025-11-09 22:37:47.025103] Received interest for dog_image23.jpg with ID 172 from Subscriber Subscriber12
+[2025-11-09 22:37:47.025222] Cache miss: Fetching dog_image23.jpg with ID 172 from Publisher or other routers
+[2025-11-09 22:37:47.210831] Received interest for cat_image13.jpg with ID 115 from Subscriber Subscriber5
+[2025-11-09 22:37:47.210937] Cache miss: Fetching cat_image13.jpg with ID 115 from Publisher or other routers
+[2025-11-09 22:37:47.396040] Received interest for dog_image7.jpg with ID 194 from Subscriber Subscriber8
+[2025-11-09 22:37:47.396163] Cache miss: Fetching dog_image7.jpg with ID 194 from Publisher or other routers
+[2025-11-09 22:37:47.582374] Received interest for cat_image44.jpg with ID 129 from Subscriber Subscriber10
+[2025-11-09 22:37:47.582420] Cache miss: Fetching cat_image44.jpg with ID 129 from Publisher or other routers
+[2025-11-09 22:37:47.769252] Received interest for cat_image34.jpg with ID 136 from Subscriber Subscriber12
+[2025-11-09 22:37:47.769385] Cache miss: Fetching cat_image34.jpg with ID 136 from Publisher or other routers
+[2025-11-09 22:37:47.957164] Received interest for cat_image26.jpg with ID 146 from Subscriber Subscriber1
+[2025-11-09 22:37:47.957278] Cache miss: Fetching cat_image26.jpg with ID 146 from Publisher or other routers
+[2025-11-09 22:37:48.142927] Received interest for dog_image7.jpg with ID 194 from Subscriber Subscriber8
+[2025-11-09 22:37:48.142964] Cache miss: Fetching dog_image7.jpg with ID 194 from Publisher or other routers
+[2025-11-09 22:37:48.325301] Received interest for dog_image36.jpg with ID 174 from Subscriber Subscriber2
+[2025-11-09 22:37:48.325417] Cache miss: Fetching dog_image36.jpg with ID 174 from Publisher or other routers
+[2025-11-09 22:37:48.519957] Received interest for cat_image32.jpg with ID 147 from Subscriber Subscriber2
+[2025-11-09 22:37:48.520076] Cache miss: Fetching cat_image32.jpg with ID 147 from Publisher or other routers
+[2025-11-09 22:37:48.714274] Received interest for cat_image46.jpg with ID 125 from Subscriber Subscriber1
+[2025-11-09 22:37:48.714391] Cache miss: Fetching cat_image46.jpg with ID 125 from Publisher or other routers
+[2025-11-09 22:37:48.959621] Received interest for dog_image36.jpg with ID 174 from Subscriber Subscriber8
+[2025-11-09 22:37:48.959813] Cache miss: Fetching dog_image36.jpg with ID 174 from Publisher or other routers
+[2025-11-09 22:37:49.147731] Received interest for dog_image33.jpg with ID 170 from Subscriber Subscriber9
+[2025-11-09 22:37:49.147796] Cache miss: Fetching dog_image33.jpg with ID 170 from Publisher or other routers
+[2025-11-09 22:37:49.340864] Received interest for cat_image9.jpg with ID 133 from Subscriber Subscriber10
+[2025-11-09 22:37:49.340990] Cache miss: Fetching cat_image9.jpg with ID 133 from Publisher or other routers
+[2025-11-09 22:37:49.531231] Received interest for cat_image25.jpg with ID 142 from Subscriber Subscriber8
+[2025-11-09 22:37:49.531349] Cache miss: Fetching cat_image25.jpg with ID 142 from Publisher or other routers
+[2025-11-09 22:37:49.722445] Received interest for cat_image4.jpg with ID 116 from Subscriber Subscriber8
+[2025-11-09 22:37:49.722491] Cache miss: Fetching cat_image4.jpg with ID 116 from Publisher or other routers
+[2025-11-09 22:37:49.908654] Received interest for cat_image6.jpg with ID 112 from Subscriber Subscriber4
+[2025-11-09 22:37:49.908766] Cache miss: Fetching cat_image6.jpg with ID 112 from Publisher or other routers
+[2025-11-09 22:37:50.097313] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber9
+[2025-11-09 22:37:50.097372] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-09 22:37:50.287412] Received interest for cat_image26.jpg with ID 146 from Subscriber Subscriber7
+[2025-11-09 22:37:50.287455] Cache miss: Fetching cat_image26.jpg with ID 146 from Publisher or other routers
+[2025-11-09 22:37:50.471674] Received interest for dog_image50.jpg with ID 154 from Subscriber Subscriber12
+[2025-11-09 22:37:50.471809] Cache miss: Fetching dog_image50.jpg with ID 154 from Publisher or other routers
+[2025-11-09 22:37:50.658626] Received interest for dog_image4.jpg with ID 192 from Subscriber Subscriber12
+[2025-11-09 22:37:50.658751] Cache miss: Fetching dog_image4.jpg with ID 192 from Publisher or other routers
+[2025-11-09 22:37:50.851104] Received interest for cat_image11.jpg with ID 113 from Subscriber Subscriber5
+[2025-11-09 22:37:50.851222] Cache miss: Fetching cat_image11.jpg with ID 113 from Publisher or other routers
+[2025-11-09 22:37:51.042370] Received interest for dog_image49.jpg with ID 196 from Subscriber Subscriber7
+[2025-11-09 22:37:51.042482] Cache miss: Fetching dog_image49.jpg with ID 196 from Publisher or other routers
+[2025-11-09 22:37:51.234196] Received interest for dog_image48.jpg with ID 197 from Subscriber Subscriber3
+[2025-11-09 22:37:51.234336] Cache miss: Fetching dog_image48.jpg with ID 197 from Publisher or other routers
+[2025-11-09 22:37:51.423367] Received interest for dog_image31.jpg with ID 163 from Subscriber Subscriber12
+[2025-11-09 22:37:51.423490] Cache miss: Fetching dog_image31.jpg with ID 163 from Publisher or other routers
+[2025-11-09 22:37:51.611674] Received interest for cat_image34.jpg with ID 136 from Subscriber Subscriber1
+[2025-11-09 22:37:51.611703] Cache miss: Fetching cat_image34.jpg with ID 136 from Publisher or other routers
+[2025-11-09 22:37:51.800284] Received interest for dog_image24.jpg with ID 165 from Subscriber Subscriber2
+[2025-11-09 22:37:51.800395] Cache miss: Fetching dog_image24.jpg with ID 165 from Publisher or other routers
+[2025-11-09 22:37:51.989121] Received interest for dog_image2.jpg with ID 198 from Subscriber Subscriber10
+[2025-11-09 22:37:51.989235] Cache miss: Fetching dog_image2.jpg with ID 198 from Publisher or other routers
+[2025-11-09 22:37:52.177749] Received interest for cat_image15.jpg with ID 103 from Subscriber Subscriber7
+[2025-11-09 22:37:52.177778] Cache miss: Fetching cat_image15.jpg with ID 103 from Publisher or other routers
+[2025-11-09 22:37:52.363117] Received interest for cat_image30.jpg with ID 144 from Subscriber Subscriber11
+[2025-11-09 22:37:52.363328] Cache miss: Fetching cat_image30.jpg with ID 144 from Publisher or other routers
+[2025-11-09 22:37:52.568596] Received interest for dog_image16.jpg with ID 185 from Subscriber Subscriber3
+[2025-11-09 22:37:52.568881] Cache miss: Fetching dog_image16.jpg with ID 185 from Publisher or other routers
+[2025-11-09 22:37:52.764633] Received interest for dog_image1.jpg with ID 199 from Subscriber Subscriber1
+[2025-11-09 22:37:52.764662] Cache miss: Fetching dog_image1.jpg with ID 199 from Publisher or other routers
+[2025-11-09 22:37:52.953287] Received interest for dog_image2.jpg with ID 198 from Subscriber Subscriber1
+[2025-11-09 22:37:52.953316] Cache miss: Fetching dog_image2.jpg with ID 198 from Publisher or other routers
+[2025-11-09 22:37:53.139328] Received interest for dog_image34.jpg with ID 176 from Subscriber Subscriber7
+[2025-11-09 22:37:53.139459] Cache miss: Fetching dog_image34.jpg with ID 176 from Publisher or other routers
+[2025-11-09 22:37:53.378002] Received interest for cat_image15.jpg with ID 103 from Subscriber Subscriber12
+[2025-11-09 22:37:53.378043] Cache miss: Fetching cat_image15.jpg with ID 103 from Publisher or other routers
+[2025-11-09 22:37:53.563006] Received interest for dog_image36.jpg with ID 174 from Subscriber Subscriber4
+[2025-11-09 22:37:53.563039] Cache miss: Fetching dog_image36.jpg with ID 174 from Publisher or other routers
+[2025-11-09 22:37:53.749057] Received interest for dog_image16.jpg with ID 185 from Subscriber Subscriber12
+[2025-11-09 22:37:53.749091] Cache miss: Fetching dog_image16.jpg with ID 185 from Publisher or other routers
+[2025-11-09 22:37:53.935771] Received interest for cat_image14.jpg with ID 108 from Subscriber Subscriber1
+[2025-11-09 22:37:53.935891] Cache miss: Fetching cat_image14.jpg with ID 108 from Publisher or other routers
+[2025-11-09 22:37:54.153685] Received interest for cat_image14.jpg with ID 108 from Subscriber Subscriber9
+[2025-11-09 22:37:54.153756] Cache miss: Fetching cat_image14.jpg with ID 108 from Publisher or other routers
+[2025-11-09 22:37:54.346937] Received interest for cat_image18.jpg with ID 145 from Subscriber Subscriber9
+[2025-11-09 22:37:54.347188] Cache miss: Fetching cat_image18.jpg with ID 145 from Publisher or other routers
+[2025-11-09 22:37:54.545207] Received interest for dog_image39.jpg with ID 182 from Subscriber Subscriber9
+[2025-11-09 22:37:54.545344] Cache miss: Fetching dog_image39.jpg with ID 182 from Publisher or other routers
+[2025-11-09 22:37:54.735047] Received interest for cat_image2.jpg with ID 105 from Subscriber Subscriber8
+[2025-11-09 22:37:54.735163] Cache miss: Fetching cat_image2.jpg with ID 105 from Publisher or other routers
+[2025-11-09 22:37:54.925902] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber11
+[2025-11-09 22:37:54.925940] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-09 22:37:55.116177] Received interest for dog_image15.jpg with ID 187 from Subscriber Subscriber3
+[2025-11-09 22:37:55.116310] Cache miss: Fetching dog_image15.jpg with ID 187 from Publisher or other routers
+[2025-11-09 22:37:55.309655] Received interest for cat_image10.jpg with ID 110 from Subscriber Subscriber6
+[2025-11-09 22:37:55.309771] Cache miss: Fetching cat_image10.jpg with ID 110 from Publisher or other routers
+[2025-11-09 22:37:55.563003] Received interest for cat_image44.jpg with ID 129 from Subscriber Subscriber5
+[2025-11-09 22:37:55.563038] Cache miss: Fetching cat_image44.jpg with ID 129 from Publisher or other routers
+[2025-11-09 22:37:55.755308] Received interest for cat_image48.jpg with ID 120 from Subscriber Subscriber4
+[2025-11-09 22:37:55.755346] Cache miss: Fetching cat_image48.jpg with ID 120 from Publisher or other routers
+[2025-11-09 22:37:55.950513] Received interest for cat_image21.jpg with ID 138 from Subscriber Subscriber9
+[2025-11-09 22:37:55.950638] Cache miss: Fetching cat_image21.jpg with ID 138 from Publisher or other routers
+[2025-11-09 22:37:56.141505] Received interest for cat_image1.jpg with ID 101 from Subscriber Subscriber12
+[2025-11-09 22:37:56.141635] Cache miss: Fetching cat_image1.jpg with ID 101 from Publisher or other routers
+[2025-11-09 22:37:56.334995] Received interest for cat_image41.jpg with ID 122 from Subscriber Subscriber1
+[2025-11-09 22:37:56.335028] Cache miss: Fetching cat_image41.jpg with ID 122 from Publisher or other routers
+[2025-11-09 22:37:56.527610] Received interest for dog_image19.jpg with ID 161 from Subscriber Subscriber5
+[2025-11-09 22:37:56.527639] Cache miss: Fetching dog_image19.jpg with ID 161 from Publisher or other routers
+[2025-11-09 22:37:56.723115] Received interest for cat_image10.jpg with ID 110 from Subscriber Subscriber10
+[2025-11-09 22:37:56.723164] Cache miss: Fetching cat_image10.jpg with ID 110 from Publisher or other routers
+[2025-11-09 22:37:56.912217] Received interest for cat_image50.jpg with ID 128 from Subscriber Subscriber5
+[2025-11-09 22:37:56.912256] Cache miss: Fetching cat_image50.jpg with ID 128 from Publisher or other routers
+[2025-11-09 22:37:57.104333] Received interest for cat_image32.jpg with ID 147 from Subscriber Subscriber9
+[2025-11-09 22:37:57.104367] Cache miss: Fetching cat_image32.jpg with ID 147 from Publisher or other routers
+[2025-11-09 22:37:57.295494] Received interest for cat_image1.jpg with ID 101 from Subscriber Subscriber4
+[2025-11-09 22:37:57.295532] Cache miss: Fetching cat_image1.jpg with ID 101 from Publisher or other routers
+[2025-11-09 22:37:57.485017] Received interest for dog_image24.jpg with ID 165 from Subscriber Subscriber10
+[2025-11-09 22:37:57.485053] Cache miss: Fetching dog_image24.jpg with ID 165 from Publisher or other routers
+[2025-11-09 22:37:57.676058] Received interest for cat_image48.jpg with ID 120 from Subscriber Subscriber3
+[2025-11-09 22:37:57.676089] Cache miss: Fetching cat_image48.jpg with ID 120 from Publisher or other routers
+[2025-11-09 22:37:57.865712] Received interest for cat_image5.jpg with ID 117 from Subscriber Subscriber7
+[2025-11-09 22:37:57.865867] Cache miss: Fetching cat_image5.jpg with ID 117 from Publisher or other routers
+[2025-11-09 22:37:58.062303] Received interest for cat_image33.jpg with ID 148 from Subscriber Subscriber5
+[2025-11-09 22:37:58.062610] Cache miss: Fetching cat_image33.jpg with ID 148 from Publisher or other routers
+[2025-11-09 22:37:58.259112] Received interest for cat_image35.jpg with ID 139 from Subscriber Subscriber1
+[2025-11-09 22:37:58.259235] Cache miss: Fetching cat_image35.jpg with ID 139 from Publisher or other routers
+[2025-11-09 22:37:58.452734] Received interest for cat_image49.jpg with ID 119 from Subscriber Subscriber12
+[2025-11-09 22:37:58.452778] Cache miss: Fetching cat_image49.jpg with ID 119 from Publisher or other routers
+[2025-11-09 22:37:58.647966] Received interest for dog_image46.jpg with ID 150 from Subscriber Subscriber2
+[2025-11-09 22:37:58.648181] Cache miss: Fetching dog_image46.jpg with ID 150 from Publisher or other routers
+[2025-11-09 22:37:58.841475] Received interest for cat_image24.jpg with ID 143 from Subscriber Subscriber5
+[2025-11-09 22:37:58.841516] Cache miss: Fetching cat_image24.jpg with ID 143 from Publisher or other routers
+[2025-11-09 22:37:59.035433] Received interest for dog_image6.jpg with ID 193 from Subscriber Subscriber7
+[2025-11-09 22:37:59.035568] Cache miss: Fetching dog_image6.jpg with ID 193 from Publisher or other routers
+[2025-11-09 22:37:59.225986] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber8
+[2025-11-09 22:37:59.226018] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-09 22:37:59.414821] Received interest for cat_image6.jpg with ID 112 from Subscriber Subscriber5
+[2025-11-09 22:37:59.414852] Cache miss: Fetching cat_image6.jpg with ID 112 from Publisher or other routers
+[2025-11-09 22:37:59.606201] Received interest for cat_image29.jpg with ID 104 from Subscriber Subscriber9
+[2025-11-09 22:37:59.606330] Cache miss: Fetching cat_image29.jpg with ID 104 from Publisher or other routers
+[2025-11-09 22:37:59.803265] Received interest for dog_image49.jpg with ID 196 from Subscriber Subscriber5
+[2025-11-09 22:37:59.803307] Cache miss: Fetching dog_image49.jpg with ID 196 from Publisher or other routers
+[2025-11-09 22:37:59.996434] Received interest for dog_image37.jpg with ID 171 from Subscriber Subscriber10
+[2025-11-09 22:37:59.996498] Cache miss: Fetching dog_image37.jpg with ID 171 from Publisher or other routers
+[2025-11-09 22:38:00.186050] Received interest for dog_image47.jpg with ID 151 from Subscriber Subscriber8
+[2025-11-09 22:38:00.186090] Cache miss: Fetching dog_image47.jpg with ID 151 from Publisher or other routers
+[2025-11-09 22:38:00.376572] Received interest for cat_image24.jpg with ID 143 from Subscriber Subscriber12
+[2025-11-09 22:38:00.376615] Cache miss: Fetching cat_image24.jpg with ID 143 from Publisher or other routers
+[2025-11-09 22:38:00.565267] Received interest for dog_image1.jpg with ID 199 from Subscriber Subscriber3
+[2025-11-09 22:38:00.565303] Cache miss: Fetching dog_image1.jpg with ID 199 from Publisher or other routers
+[2025-11-09 22:38:00.756035] Received interest for dog_image17.jpg with ID 186 from Subscriber Subscriber4
+[2025-11-09 22:38:00.756171] Cache miss: Fetching dog_image17.jpg with ID 186 from Publisher or other routers
+[2025-11-09 22:38:00.948707] Received interest for dog_image22.jpg with ID 173 from Subscriber Subscriber2
+[2025-11-09 22:38:00.948740] Cache miss: Fetching dog_image22.jpg with ID 173 from Publisher or other routers
+[2025-11-09 22:38:01.143026] Received interest for dog_image14.jpg with ID 190 from Subscriber Subscriber1
+[2025-11-09 22:38:01.143165] Cache miss: Fetching dog_image14.jpg with ID 190 from Publisher or other routers
+[2025-11-09 22:38:01.337982] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber7
+[2025-11-09 22:38:01.338023] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-09 22:38:01.526900] Received interest for cat_image36.jpg with ID 134 from Subscriber Subscriber11
+[2025-11-09 22:38:01.527052] Cache miss: Fetching cat_image36.jpg with ID 134 from Publisher or other routers
+[2025-11-09 22:38:01.720347] Received interest for cat_image7.jpg with ID 111 from Subscriber Subscriber1
+[2025-11-09 22:38:01.720488] Cache miss: Fetching cat_image7.jpg with ID 111 from Publisher or other routers
+[2025-11-09 22:38:01.913250] Received interest for cat_image22.jpg with ID 135 from Subscriber Subscriber1
+[2025-11-09 22:38:01.913389] Cache miss: Fetching cat_image22.jpg with ID 135 from Publisher or other routers
+[2025-11-09 22:38:02.102689] Received interest for dog_image19.jpg with ID 161 from Subscriber Subscriber12
+[2025-11-09 22:38:02.102736] Cache miss: Fetching dog_image19.jpg with ID 161 from Publisher or other routers
+[2025-11-09 22:38:02.290548] Received interest for cat_image25.jpg with ID 142 from Subscriber Subscriber9
+[2025-11-09 22:38:02.290584] Cache miss: Fetching cat_image25.jpg with ID 142 from Publisher or other routers
+[2025-11-09 22:38:02.533571] Received interest for cat_image15.jpg with ID 103 from Subscriber Subscriber3
+[2025-11-09 22:38:02.533609] Cache miss: Fetching cat_image15.jpg with ID 103 from Publisher or other routers
+[2025-11-09 22:38:02.719731] Received interest for cat_image22.jpg with ID 135 from Subscriber Subscriber9
+[2025-11-09 22:38:02.719783] Cache miss: Fetching cat_image22.jpg with ID 135 from Publisher or other routers
+[2025-11-09 22:38:02.909998] Received interest for dog_image28.jpg with ID 189 from Subscriber Subscriber11
+[2025-11-09 22:38:02.910140] Cache miss: Fetching dog_image28.jpg with ID 189 from Publisher or other routers
+[2025-11-09 22:38:03.102606] Received interest for cat_image11.jpg with ID 113 from Subscriber Subscriber1
+[2025-11-09 22:38:03.102646] Cache miss: Fetching cat_image11.jpg with ID 113 from Publisher or other routers
+[2025-11-09 22:38:03.290605] Received interest for cat_image23.jpg with ID 130 from Subscriber Subscriber3
+[2025-11-09 22:38:03.290651] Cache miss: Fetching cat_image23.jpg with ID 130 from Publisher or other routers
+[2025-11-09 22:38:03.481356] Received interest for dog_image18.jpg with ID 166 from Subscriber Subscriber6
+[2025-11-09 22:38:03.481505] Cache miss: Fetching dog_image18.jpg with ID 166 from Publisher or other routers
+[2025-11-09 22:38:03.671307] Received interest for cat_image33.jpg with ID 148 from Subscriber Subscriber1
+[2025-11-09 22:38:03.671341] Cache miss: Fetching cat_image33.jpg with ID 148 from Publisher or other routers
+[2025-11-09 22:38:03.858943] Received interest for cat_image36.jpg with ID 134 from Subscriber Subscriber8
+[2025-11-09 22:38:03.859017] Cache miss: Fetching cat_image36.jpg with ID 134 from Publisher or other routers
+[2025-11-09 22:38:04.049550] Received interest for dog_image45.jpg with ID 152 from Subscriber Subscriber4
+[2025-11-09 22:38:04.049689] Cache miss: Fetching dog_image45.jpg with ID 152 from Publisher or other routers
+[2025-11-09 22:38:04.238482] Received interest for cat_image35.jpg with ID 139 from Subscriber Subscriber7
+[2025-11-09 22:38:04.238518] Cache miss: Fetching cat_image35.jpg with ID 139 from Publisher or other routers
+[2025-11-09 22:38:04.424493] Received interest for cat_image11.jpg with ID 113 from Subscriber Subscriber10
+[2025-11-09 22:38:04.424540] Cache miss: Fetching cat_image11.jpg with ID 113 from Publisher or other routers
+[2025-11-09 22:38:04.609801] Received interest for dog_image1.jpg with ID 199 from Subscriber Subscriber4
+[2025-11-09 22:38:04.609948] Cache miss: Fetching dog_image1.jpg with ID 199 from Publisher or other routers
+[2025-11-09 22:38:04.799112] Received interest for dog_image49.jpg with ID 196 from Subscriber Subscriber1
+[2025-11-09 22:38:04.799178] Cache miss: Fetching dog_image49.jpg with ID 196 from Publisher or other routers
+[2025-11-09 22:38:04.988156] Received interest for cat_image39.jpg with ID 114 from Subscriber Subscriber7
+[2025-11-09 22:38:04.988293] Cache miss: Fetching cat_image39.jpg with ID 114 from Publisher or other routers
+[2025-11-09 22:38:05.175797] Received interest for cat_image24.jpg with ID 143 from Subscriber Subscriber6
+[2025-11-09 22:38:05.175866] Cache miss: Fetching cat_image24.jpg with ID 143 from Publisher or other routers
+[2025-11-09 22:38:05.363248] Received interest for dog_image31.jpg with ID 163 from Subscriber Subscriber4
+[2025-11-09 22:38:05.363285] Cache miss: Fetching dog_image31.jpg with ID 163 from Publisher or other routers
+[2025-11-09 22:38:05.553825] Received interest for cat_image42.jpg with ID 124 from Subscriber Subscriber12
+[2025-11-09 22:38:05.553857] Cache miss: Fetching cat_image42.jpg with ID 124 from Publisher or other routers
+[2025-11-09 22:38:05.742472] Received interest for cat_image46.jpg with ID 125 from Subscriber Subscriber1
+[2025-11-09 22:38:05.742513] Cache miss: Fetching cat_image46.jpg with ID 125 from Publisher or other routers
+[2025-11-09 22:38:05.932778] Received interest for cat_image26.jpg with ID 146 from Subscriber Subscriber12
+[2025-11-09 22:38:05.932820] Cache miss: Fetching cat_image26.jpg with ID 146 from Publisher or other routers
+[2025-11-09 22:38:06.122142] Received interest for dog_image17.jpg with ID 186 from Subscriber Subscriber2
+[2025-11-09 22:38:06.122173] Cache miss: Fetching dog_image17.jpg with ID 186 from Publisher or other routers
+[2025-11-09 22:38:06.311368] Received interest for cat_image46.jpg with ID 125 from Subscriber Subscriber2
+[2025-11-09 22:38:06.311409] Cache miss: Fetching cat_image46.jpg with ID 125 from Publisher or other routers
+[2025-11-09 22:38:06.499106] Received interest for dog_image10.jpg with ID 180 from Subscriber Subscriber1
+[2025-11-09 22:38:06.499241] Cache miss: Fetching dog_image10.jpg with ID 180 from Publisher or other routers
+[2025-11-09 22:38:06.690100] Received interest for cat_image40.jpg with ID 121 from Subscriber Subscriber4
+[2025-11-09 22:38:06.690244] Cache miss: Fetching cat_image40.jpg with ID 121 from Publisher or other routers
+[2025-11-09 22:38:06.903640] Received interest for cat_image25.jpg with ID 142 from Subscriber Subscriber8
+[2025-11-09 22:38:06.903682] Cache miss: Fetching cat_image25.jpg with ID 142 from Publisher or other routers
+[2025-11-09 22:38:07.093090] Received interest for cat_image40.jpg with ID 121 from Subscriber Subscriber5
+[2025-11-09 22:38:07.093131] Cache miss: Fetching cat_image40.jpg with ID 121 from Publisher or other routers
+[2025-11-09 22:38:07.280752] Received interest for cat_image28.jpg with ID 107 from Subscriber Subscriber7
+[2025-11-09 22:38:07.280893] Cache miss: Fetching cat_image28.jpg with ID 107 from Publisher or other routers
+[2025-11-09 22:38:07.470902] Received interest for cat_image16.jpg with ID 100 from Subscriber Subscriber12
+[2025-11-09 22:38:07.471054] Cache miss: Fetching cat_image16.jpg with ID 100 from Publisher or other routers
+[2025-11-09 22:38:07.660294] Received interest for dog_image30.jpg with ID 164 from Subscriber Subscriber12
+[2025-11-09 22:38:07.660446] Cache miss: Fetching dog_image30.jpg with ID 164 from Publisher or other routers
+[2025-11-09 22:38:07.848891] Received interest for cat_image42.jpg with ID 124 from Subscriber Subscriber11
+[2025-11-09 22:38:07.848933] Cache miss: Fetching cat_image42.jpg with ID 124 from Publisher or other routers
+[2025-11-09 22:38:08.035730] Received interest for dog_image32.jpg with ID 167 from Subscriber Subscriber6
+[2025-11-09 22:38:08.035858] Cache miss: Fetching dog_image32.jpg with ID 167 from Publisher or other routers
+[2025-11-09 22:38:08.225307] Received interest for cat_image13.jpg with ID 115 from Subscriber Subscriber1
+[2025-11-09 22:38:08.225341] Cache miss: Fetching cat_image13.jpg with ID 115 from Publisher or other routers
+[2025-11-09 22:38:08.412817] Received interest for cat_image39.jpg with ID 114 from Subscriber Subscriber8
+[2025-11-09 22:38:08.412858] Cache miss: Fetching cat_image39.jpg with ID 114 from Publisher or other routers
+[2025-11-09 22:38:08.601400] Received interest for dog_image1.jpg with ID 199 from Subscriber Subscriber3
+[2025-11-09 22:38:08.601441] Cache miss: Fetching dog_image1.jpg with ID 199 from Publisher or other routers
+[2025-11-09 22:38:08.789246] Received interest for dog_image24.jpg with ID 165 from Subscriber Subscriber12
+[2025-11-09 22:38:08.789297] Cache miss: Fetching dog_image24.jpg with ID 165 from Publisher or other routers
+[2025-11-09 22:38:08.976834] Received interest for dog_image49.jpg with ID 196 from Subscriber Subscriber9
+[2025-11-09 22:38:08.976890] Cache miss: Fetching dog_image49.jpg with ID 196 from Publisher or other routers
+[2025-11-09 22:38:09.163878] Received interest for cat_image26.jpg with ID 146 from Subscriber Subscriber4
+[2025-11-09 22:38:09.163923] Cache miss: Fetching cat_image26.jpg with ID 146 from Publisher or other routers
+[2025-11-09 22:38:09.392869] Received interest for cat_image35.jpg with ID 139 from Subscriber Subscriber12
+[2025-11-09 22:38:09.392917] Cache miss: Fetching cat_image35.jpg with ID 139 from Publisher or other routers
+[2025-11-09 22:38:09.581581] Received interest for dog_image5.jpg with ID 191 from Subscriber Subscriber1
+[2025-11-09 22:38:09.581722] Cache miss: Fetching dog_image5.jpg with ID 191 from Publisher or other routers
+[2025-11-09 22:38:09.772578] Received interest for cat_image7.jpg with ID 111 from Subscriber Subscriber4
+[2025-11-09 22:38:09.772622] Cache miss: Fetching cat_image7.jpg with ID 111 from Publisher or other routers
+[2025-11-09 22:38:09.963831] Received interest for dog_image29.jpg with ID 188 from Subscriber Subscriber8
+[2025-11-09 22:38:09.963977] Cache miss: Fetching dog_image29.jpg with ID 188 from Publisher or other routers
+[2025-11-09 22:38:10.154869] Received interest for cat_image2.jpg with ID 105 from Subscriber Subscriber12
+[2025-11-09 22:38:10.154922] Cache miss: Fetching cat_image2.jpg with ID 105 from Publisher or other routers
+[2025-11-09 22:38:10.343164] Received interest for dog_image36.jpg with ID 174 from Subscriber Subscriber10
+[2025-11-09 22:38:10.343206] Cache miss: Fetching dog_image36.jpg with ID 174 from Publisher or other routers
+[2025-11-09 22:38:10.533917] Received interest for cat_image14.jpg with ID 108 from Subscriber Subscriber12
+[2025-11-09 22:38:10.534034] Cache miss: Fetching cat_image14.jpg with ID 108 from Publisher or other routers
+[2025-11-09 22:38:10.723182] Received interest for cat_image22.jpg with ID 135 from Subscriber Subscriber9
+[2025-11-09 22:38:10.723231] Cache miss: Fetching cat_image22.jpg with ID 135 from Publisher or other routers
+[2025-11-09 22:38:10.911709] Received interest for cat_image44.jpg with ID 129 from Subscriber Subscriber11
+[2025-11-09 22:38:10.911745] Cache miss: Fetching cat_image44.jpg with ID 129 from Publisher or other routers
+[2025-11-09 22:38:11.101538] Received interest for cat_image27.jpg with ID 149 from Subscriber Subscriber3
+[2025-11-09 22:38:11.101699] Cache miss: Fetching cat_image27.jpg with ID 149 from Publisher or other routers
+[2025-11-09 22:38:11.292035] Received interest for cat_image30.jpg with ID 144 from Subscriber Subscriber5
+[2025-11-09 22:38:11.292070] Cache miss: Fetching cat_image30.jpg with ID 144 from Publisher or other routers
+[2025-11-09 22:38:11.481308] Received interest for dog_image5.jpg with ID 191 from Subscriber Subscriber2
+[2025-11-09 22:38:11.481341] Cache miss: Fetching dog_image5.jpg with ID 191 from Publisher or other routers
+[2025-11-09 22:38:11.669116] Received interest for dog_image30.jpg with ID 164 from Subscriber Subscriber3
+[2025-11-09 22:38:11.669160] Cache miss: Fetching dog_image30.jpg with ID 164 from Publisher or other routers
+[2025-11-09 22:38:11.856918] Received interest for dog_image17.jpg with ID 186 from Subscriber Subscriber12
+[2025-11-09 22:38:11.856959] Cache miss: Fetching dog_image17.jpg with ID 186 from Publisher or other routers
+[2025-11-09 22:38:12.045230] Received interest for cat_image23.jpg with ID 130 from Subscriber Subscriber3
+[2025-11-09 22:38:12.045267] Cache miss: Fetching cat_image23.jpg with ID 130 from Publisher or other routers
+[2025-11-09 22:38:12.233569] Received interest for cat_image46.jpg with ID 125 from Subscriber Subscriber2
+[2025-11-09 22:38:12.233611] Cache miss: Fetching cat_image46.jpg with ID 125 from Publisher or other routers
+[2025-11-09 22:38:12.422719] Received interest for dog_image28.jpg with ID 189 from Subscriber Subscriber8
+[2025-11-09 22:38:12.422761] Cache miss: Fetching dog_image28.jpg with ID 189 from Publisher or other routers
+[2025-11-09 22:38:12.611071] Received interest for cat_image26.jpg with ID 146 from Subscriber Subscriber7
+[2025-11-09 22:38:12.611115] Cache miss: Fetching cat_image26.jpg with ID 146 from Publisher or other routers
+[2025-11-09 22:38:12.799818] Received interest for cat_image28.jpg with ID 107 from Subscriber Subscriber5
+[2025-11-09 22:38:12.799851] Cache miss: Fetching cat_image28.jpg with ID 107 from Publisher or other routers
+[2025-11-09 22:38:12.988300] Received interest for dog_image23.jpg with ID 172 from Subscriber Subscriber4
+[2025-11-09 22:38:12.988331] Cache miss: Fetching dog_image23.jpg with ID 172 from Publisher or other routers
+[2025-11-09 22:38:13.220766] Received interest for dog_image46.jpg with ID 150 from Subscriber Subscriber11
+[2025-11-09 22:38:13.220814] Cache miss: Fetching dog_image46.jpg with ID 150 from Publisher or other routers
+[2025-11-09 22:38:13.408916] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber7
+[2025-11-09 22:38:13.408962] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-09 22:38:13.597440] Received interest for dog_image49.jpg with ID 196 from Subscriber Subscriber2
+[2025-11-09 22:38:13.597487] Cache miss: Fetching dog_image49.jpg with ID 196 from Publisher or other routers
+[2025-11-09 22:38:13.785819] Received interest for cat_image7.jpg with ID 111 from Subscriber Subscriber2
+[2025-11-09 22:38:13.785854] Cache miss: Fetching cat_image7.jpg with ID 111 from Publisher or other routers
+[2025-11-09 22:38:13.985489] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber12
+[2025-11-09 22:38:13.985540] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-09 22:38:14.172512] Received interest for dog_image23.jpg with ID 172 from Subscriber Subscriber1
+[2025-11-09 22:38:14.172542] Cache miss: Fetching dog_image23.jpg with ID 172 from Publisher or other routers
+[2025-11-09 22:38:14.358465] Received interest for cat_image40.jpg with ID 121 from Subscriber Subscriber3
+[2025-11-09 22:38:14.358511] Cache miss: Fetching cat_image40.jpg with ID 121 from Publisher or other routers
+[2025-11-09 22:38:14.545004] Received interest for cat_image2.jpg with ID 105 from Subscriber Subscriber9
+[2025-11-09 22:38:14.545051] Cache miss: Fetching cat_image2.jpg with ID 105 from Publisher or other routers
+[2025-11-09 22:38:14.732463] Received interest for dog_image37.jpg with ID 171 from Subscriber Subscriber12
+[2025-11-09 22:38:14.732510] Cache miss: Fetching dog_image37.jpg with ID 171 from Publisher or other routers
+[2025-11-09 22:38:14.920573] Received interest for cat_image32.jpg with ID 147 from Subscriber Subscriber11
+[2025-11-09 22:38:14.920615] Cache miss: Fetching cat_image32.jpg with ID 147 from Publisher or other routers
+[2025-11-09 22:38:15.111142] Received interest for cat_image20.jpg with ID 137 from Subscriber Subscriber3
+[2025-11-09 22:38:15.111307] Cache miss: Fetching cat_image20.jpg with ID 137 from Publisher or other routers
+[2025-11-09 22:38:15.301866] Received interest for cat_image6.jpg with ID 112 from Subscriber Subscriber7
+[2025-11-09 22:38:15.301904] Cache miss: Fetching cat_image6.jpg with ID 112 from Publisher or other routers
+[2025-11-09 22:38:15.491571] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber11
+[2025-11-09 22:38:15.491618] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-09 22:38:15.677304] Received interest for cat_image13.jpg with ID 115 from Subscriber Subscriber3
+[2025-11-09 22:38:15.677352] Cache miss: Fetching cat_image13.jpg with ID 115 from Publisher or other routers
+[2025-11-09 22:38:15.868436] Received interest for dog_image31.jpg with ID 163 from Subscriber Subscriber4
+[2025-11-09 22:38:15.868472] Cache miss: Fetching dog_image31.jpg with ID 163 from Publisher or other routers
+[2025-11-09 22:38:16.071601] Received interest for dog_image28.jpg with ID 189 from Subscriber Subscriber9
+[2025-11-09 22:38:16.071816] Cache miss: Fetching dog_image28.jpg with ID 189 from Publisher or other routers
+[2025-11-09 22:38:16.262154] Received interest for cat_image38.jpg with ID 109 from Subscriber Subscriber2
+[2025-11-09 22:38:16.262208] Cache miss: Fetching cat_image38.jpg with ID 109 from Publisher or other routers
+[2025-11-09 22:38:16.451181] Received interest for dog_image32.jpg with ID 167 from Subscriber Subscriber2
+[2025-11-09 22:38:16.451224] Cache miss: Fetching dog_image32.jpg with ID 167 from Publisher or other routers
+[2025-11-09 22:38:16.642644] Received interest for cat_image34.jpg with ID 136 from Subscriber Subscriber12
+[2025-11-09 22:38:16.642693] Cache miss: Fetching cat_image34.jpg with ID 136 from Publisher or other routers
+[2025-11-09 22:38:16.839713] Received interest for dog_image43.jpg with ID 158 from Subscriber Subscriber7
+[2025-11-09 22:38:16.839764] Cache miss: Fetching dog_image43.jpg with ID 158 from Publisher or other routers
+[2025-11-09 22:38:17.029490] Received interest for dog_image14.jpg with ID 190 from Subscriber Subscriber6
+[2025-11-09 22:38:17.029563] Cache miss: Fetching dog_image14.jpg with ID 190 from Publisher or other routers
+[2025-11-09 22:38:17.217853] Received interest for dog_image9.jpg with ID 157 from Subscriber Subscriber11
+[2025-11-09 22:38:17.218001] Cache miss: Fetching dog_image9.jpg with ID 157 from Publisher or other routers
+[2025-11-09 22:38:17.408244] Received interest for cat_image49.jpg with ID 119 from Subscriber Subscriber11
+[2025-11-09 22:38:17.408290] Cache miss: Fetching cat_image49.jpg with ID 119 from Publisher or other routers
+[2025-11-09 22:38:17.597166] Received interest for cat_image23.jpg with ID 130 from Subscriber Subscriber1
+[2025-11-09 22:38:17.597210] Cache miss: Fetching cat_image23.jpg with ID 130 from Publisher or other routers
+[2025-11-09 22:38:17.784332] Received interest for dog_image19.jpg with ID 161 from Subscriber Subscriber8
+[2025-11-09 22:38:17.784383] Cache miss: Fetching dog_image19.jpg with ID 161 from Publisher or other routers
+[2025-11-09 22:38:17.973280] Received interest for cat_image32.jpg with ID 147 from Subscriber Subscriber2
+[2025-11-09 22:38:17.973335] Cache miss: Fetching cat_image32.jpg with ID 147 from Publisher or other routers
+[2025-11-09 22:38:18.158486] Received interest for cat_image10.jpg with ID 110 from Subscriber Subscriber7
+[2025-11-09 22:38:18.158537] Cache miss: Fetching cat_image10.jpg with ID 110 from Publisher or other routers
+[2025-11-09 22:38:18.346400] Received interest for dog_image12.jpg with ID 184 from Subscriber Subscriber3
+[2025-11-09 22:38:18.346573] Cache miss: Fetching dog_image12.jpg with ID 184 from Publisher or other routers
+[2025-11-09 22:38:18.535070] Received interest for cat_image2.jpg with ID 105 from Subscriber Subscriber12
+[2025-11-09 22:38:18.535116] Cache miss: Fetching cat_image2.jpg with ID 105 from Publisher or other routers
+[2025-11-09 22:38:18.724460] Received interest for dog_image8.jpg with ID 160 from Subscriber Subscriber2
+[2025-11-09 22:38:18.724608] Cache miss: Fetching dog_image8.jpg with ID 160 from Publisher or other routers
+[2025-11-09 22:38:18.914830] Received interest for dog_image4.jpg with ID 192 from Subscriber Subscriber7
+[2025-11-09 22:38:18.914880] Cache miss: Fetching dog_image4.jpg with ID 192 from Publisher or other routers
+[2025-11-09 22:38:19.103795] Received interest for dog_image7.jpg with ID 194 from Subscriber Subscriber7
+[2025-11-09 22:38:19.103860] Cache miss: Fetching dog_image7.jpg with ID 194 from Publisher or other routers
+[2025-11-09 22:38:19.292195] Received interest for cat_image35.jpg with ID 139 from Subscriber Subscriber3
+[2025-11-09 22:38:19.292256] Cache miss: Fetching cat_image35.jpg with ID 139 from Publisher or other routers
+[2025-11-09 22:38:19.478969] Received interest for dog_image10.jpg with ID 180 from Subscriber Subscriber9
+[2025-11-09 22:38:19.479018] Cache miss: Fetching dog_image10.jpg with ID 180 from Publisher or other routers
+[2025-11-09 22:38:19.667687] Received interest for dog_image16.jpg with ID 185 from Subscriber Subscriber12
+[2025-11-09 22:38:19.667729] Cache miss: Fetching dog_image16.jpg with ID 185 from Publisher or other routers
+[2025-11-09 22:54:05.815214] Received interest for cat_image9.jpg with ID 133 from Subscriber Subscriber3
+[2025-11-09 22:54:05.815533] Cache miss: Fetching cat_image9.jpg with ID 133 from Publisher or other routers
+[2025-11-09 22:54:06.033805] Received interest for dog_image50.jpg with ID 154 from Subscriber Subscriber9
+[2025-11-09 22:54:06.034066] Cache miss: Fetching dog_image50.jpg with ID 154 from Publisher or other routers
+[2025-11-09 22:54:06.219817] Received interest for dog_image7.jpg with ID 194 from Subscriber Subscriber1
+[2025-11-09 22:54:06.219921] Cache miss: Fetching dog_image7.jpg with ID 194 from Publisher or other routers
+[2025-11-09 22:54:06.403690] Received interest for cat_image20.jpg with ID 137 from Subscriber Subscriber8
+[2025-11-09 22:54:06.403785] Cache miss: Fetching cat_image20.jpg with ID 137 from Publisher or other routers
+[2025-11-09 22:54:06.586922] Received interest for dog_image33.jpg with ID 170 from Subscriber Subscriber8
+[2025-11-09 22:54:06.587029] Cache miss: Fetching dog_image33.jpg with ID 170 from Publisher or other routers
+[2025-11-09 22:54:06.772020] Received interest for dog_image24.jpg with ID 165 from Subscriber Subscriber3
+[2025-11-09 22:54:06.772130] Cache miss: Fetching dog_image24.jpg with ID 165 from Publisher or other routers
+[2025-11-09 22:54:06.971883] Received interest for dog_image2.jpg with ID 198 from Subscriber Subscriber1
+[2025-11-09 22:54:06.971988] Cache miss: Fetching dog_image2.jpg with ID 198 from Publisher or other routers
+[2025-11-09 22:54:07.159816] Received interest for cat_image17.jpg with ID 102 from Subscriber Subscriber3
+[2025-11-09 22:54:07.159928] Cache miss: Fetching cat_image17.jpg with ID 102 from Publisher or other routers
+[2025-11-09 22:54:07.344880] Received interest for cat_image34.jpg with ID 136 from Subscriber Subscriber10
+[2025-11-09 22:54:07.344978] Cache miss: Fetching cat_image34.jpg with ID 136 from Publisher or other routers
+[2025-11-09 22:54:07.532302] Received interest for cat_image32.jpg with ID 147 from Subscriber Subscriber11
+[2025-11-09 22:54:07.532412] Cache miss: Fetching cat_image32.jpg with ID 147 from Publisher or other routers
+[2025-11-09 22:54:07.720434] Received interest for cat_image16.jpg with ID 100 from Subscriber Subscriber4
+[2025-11-09 22:54:07.720532] Cache miss: Fetching cat_image16.jpg with ID 100 from Publisher or other routers
+[2025-11-09 22:54:07.906158] Received interest for cat_image18.jpg with ID 145 from Subscriber Subscriber3
+[2025-11-09 22:54:07.906256] Cache miss: Fetching cat_image18.jpg with ID 145 from Publisher or other routers
+[2025-11-09 22:54:08.091888] Received interest for dog_image34.jpg with ID 176 from Subscriber Subscriber2
+[2025-11-09 22:54:08.091986] Cache miss: Fetching dog_image34.jpg with ID 176 from Publisher or other routers
+[2025-11-09 22:54:08.278512] Received interest for dog_image16.jpg with ID 185 from Subscriber Subscriber6
+[2025-11-09 22:54:08.278605] Cache miss: Fetching dog_image16.jpg with ID 185 from Publisher or other routers
+[2025-11-09 22:54:08.466595] Received interest for cat_image35.jpg with ID 139 from Subscriber Subscriber2
+[2025-11-09 22:54:08.466720] Cache miss: Fetching cat_image35.jpg with ID 139 from Publisher or other routers
+[2025-11-09 22:54:08.652389] Received interest for cat_image4.jpg with ID 116 from Subscriber Subscriber11
+[2025-11-09 22:54:08.652497] Cache miss: Fetching cat_image4.jpg with ID 116 from Publisher or other routers
+[2025-11-09 22:54:08.837478] Received interest for dog_image37.jpg with ID 171 from Subscriber Subscriber6
+[2025-11-09 22:54:08.837576] Cache miss: Fetching dog_image37.jpg with ID 171 from Publisher or other routers
+[2025-11-09 22:54:09.023862] Received interest for cat_image27.jpg with ID 149 from Subscriber Subscriber4
+[2025-11-09 22:54:09.023977] Cache miss: Fetching cat_image27.jpg with ID 149 from Publisher or other routers
+[2025-11-09 22:54:09.210174] Received interest for cat_image21.jpg with ID 138 from Subscriber Subscriber5
+[2025-11-09 22:54:09.210313] Cache miss: Fetching cat_image21.jpg with ID 138 from Publisher or other routers
+[2025-11-09 22:54:09.398810] Received interest for dog_image1.jpg with ID 199 from Subscriber Subscriber3
+[2025-11-09 22:54:09.400154] Cache miss: Fetching dog_image1.jpg with ID 199 from Publisher or other routers
+[2025-11-09 22:54:09.820535] Received interest for cat_image3.jpg with ID 106 from Subscriber Subscriber10
+[2025-11-09 22:54:09.820647] Cache miss: Fetching cat_image3.jpg with ID 106 from Publisher or other routers
+[2025-11-09 22:54:10.189541] Received interest for cat_image25.jpg with ID 142 from Subscriber Subscriber4
+[2025-11-09 22:54:10.189658] Cache miss: Fetching cat_image25.jpg with ID 142 from Publisher or other routers
+[2025-11-09 22:54:10.374808] Received interest for dog_image9.jpg with ID 157 from Subscriber Subscriber12
+[2025-11-09 22:54:10.374918] Cache miss: Fetching dog_image9.jpg with ID 157 from Publisher or other routers
+[2025-11-09 22:54:10.560639] Received interest for cat_image13.jpg with ID 115 from Subscriber Subscriber7
+[2025-11-09 22:54:10.560756] Cache miss: Fetching cat_image13.jpg with ID 115 from Publisher or other routers
+[2025-11-09 22:54:10.746110] Received interest for dog_image15.jpg with ID 187 from Subscriber Subscriber9
+[2025-11-09 22:54:10.746239] Cache miss: Fetching dog_image15.jpg with ID 187 from Publisher or other routers
+[2025-11-09 22:54:10.931497] Received interest for cat_image8.jpg with ID 132 from Subscriber Subscriber12
+[2025-11-09 22:54:10.931616] Cache miss: Fetching cat_image8.jpg with ID 132 from Publisher or other routers
+[2025-11-09 22:54:11.117802] Received interest for cat_image39.jpg with ID 114 from Subscriber Subscriber6
+[2025-11-09 22:54:11.117916] Cache miss: Fetching cat_image39.jpg with ID 114 from Publisher or other routers
+[2025-11-09 22:54:11.303140] Received interest for cat_image8.jpg with ID 132 from Subscriber Subscriber6
+[2025-11-09 22:54:11.303173] Cache miss: Fetching cat_image8.jpg with ID 132 from Publisher or other routers
+[2025-11-09 22:54:11.486372] Received interest for dog_image25.jpg with ID 162 from Subscriber Subscriber12
+[2025-11-09 22:54:11.486500] Cache miss: Fetching dog_image25.jpg with ID 162 from Publisher or other routers
+[2025-11-09 22:54:11.671678] Received interest for cat_image2.jpg with ID 105 from Subscriber Subscriber8
+[2025-11-09 22:54:11.671809] Cache miss: Fetching cat_image2.jpg with ID 105 from Publisher or other routers
+[2025-11-09 22:54:11.858048] Received interest for dog_image4.jpg with ID 192 from Subscriber Subscriber6
+[2025-11-09 22:54:11.858160] Cache miss: Fetching dog_image4.jpg with ID 192 from Publisher or other routers
+[2025-11-09 22:54:12.045184] Received interest for dog_image2.jpg with ID 198 from Subscriber Subscriber1
+[2025-11-09 22:54:12.045231] Cache miss: Fetching dog_image2.jpg with ID 198 from Publisher or other routers
+[2025-11-09 22:54:12.232456] Received interest for cat_image30.jpg with ID 144 from Subscriber Subscriber1
+[2025-11-09 22:54:12.232560] Cache miss: Fetching cat_image30.jpg with ID 144 from Publisher or other routers
+[2025-11-09 22:54:12.418373] Received interest for cat_image22.jpg with ID 135 from Subscriber Subscriber1
+[2025-11-09 22:54:12.418517] Cache miss: Fetching cat_image22.jpg with ID 135 from Publisher or other routers
+[2025-11-09 22:54:12.793488] Received interest for dog_image17.jpg with ID 186 from Subscriber Subscriber1
+[2025-11-09 22:54:12.793607] Cache miss: Fetching dog_image17.jpg with ID 186 from Publisher or other routers
+[2025-11-09 22:54:12.982450] Received interest for cat_image18.jpg with ID 145 from Subscriber Subscriber11
+[2025-11-09 22:54:12.982490] Cache miss: Fetching cat_image18.jpg with ID 145 from Publisher or other routers
+[2025-11-09 22:54:13.167976] Received interest for dog_image7.jpg with ID 194 from Subscriber Subscriber12
+[2025-11-09 22:54:13.169760] Cache miss: Fetching dog_image7.jpg with ID 194 from Publisher or other routers
+[2025-11-09 22:54:13.364645] Received interest for dog_image30.jpg with ID 164 from Subscriber Subscriber4
+[2025-11-09 22:54:13.364752] Cache miss: Fetching dog_image30.jpg with ID 164 from Publisher or other routers
+[2025-11-09 22:54:13.553866] Received interest for dog_image50.jpg with ID 154 from Subscriber Subscriber12
+[2025-11-09 22:54:13.553912] Cache miss: Fetching dog_image50.jpg with ID 154 from Publisher or other routers
+[2025-11-09 22:54:13.742578] Received interest for cat_image26.jpg with ID 146 from Subscriber Subscriber8
+[2025-11-09 22:54:13.742699] Cache miss: Fetching cat_image26.jpg with ID 146 from Publisher or other routers
+[2025-11-09 22:54:13.932686] Received interest for cat_image4.jpg with ID 116 from Subscriber Subscriber12
+[2025-11-09 22:54:13.932736] Cache miss: Fetching cat_image4.jpg with ID 116 from Publisher or other routers
+[2025-11-09 22:54:14.123630] Received interest for dog_image9.jpg with ID 157 from Subscriber Subscriber2
+[2025-11-09 22:54:14.123677] Cache miss: Fetching dog_image9.jpg with ID 157 from Publisher or other routers
+[2025-11-09 22:54:14.312338] Received interest for cat_image20.jpg with ID 137 from Subscriber Subscriber3
+[2025-11-09 22:54:14.312372] Cache miss: Fetching cat_image20.jpg with ID 137 from Publisher or other routers
+[2025-11-09 22:54:14.499701] Received interest for dog_image25.jpg with ID 162 from Subscriber Subscriber12
+[2025-11-09 22:54:14.499741] Cache miss: Fetching dog_image25.jpg with ID 162 from Publisher or other routers
+[2025-11-09 22:54:14.684676] Received interest for cat_image21.jpg with ID 138 from Subscriber Subscriber2
+[2025-11-09 22:54:14.684719] Cache miss: Fetching cat_image21.jpg with ID 138 from Publisher or other routers
+[2025-11-09 22:54:14.889594] Received interest for cat_image36.jpg with ID 134 from Subscriber Subscriber3
+[2025-11-09 22:54:14.889740] Cache miss: Fetching cat_image36.jpg with ID 134 from Publisher or other routers
+[2025-11-09 22:54:15.096899] Received interest for dog_image38.jpg with ID 179 from Subscriber Subscriber8
+[2025-11-09 22:54:15.097043] Cache miss: Fetching dog_image38.jpg with ID 179 from Publisher or other routers
+[2025-11-09 22:54:15.353590] Received interest for cat_image19.jpg with ID 140 from Subscriber Subscriber9
+[2025-11-09 22:54:15.353728] Cache miss: Fetching cat_image19.jpg with ID 140 from Publisher or other routers
+[2025-11-09 22:54:15.552664] Received interest for cat_image48.jpg with ID 120 from Subscriber Subscriber3
+[2025-11-09 22:54:15.552812] Cache miss: Fetching cat_image48.jpg with ID 120 from Publisher or other routers
+[2025-11-09 22:54:15.746587] Received interest for cat_image19.jpg with ID 140 from Subscriber Subscriber11
+[2025-11-09 22:54:15.746623] Cache miss: Fetching cat_image19.jpg with ID 140 from Publisher or other routers
+[2025-11-09 22:54:15.928790] Received interest for dog_image28.jpg with ID 189 from Subscriber Subscriber8
+[2025-11-09 22:54:15.928906] Cache miss: Fetching dog_image28.jpg with ID 189 from Publisher or other routers
+[2025-11-09 22:54:16.297120] Received interest for cat_image29.jpg with ID 104 from Subscriber Subscriber6
+[2025-11-09 22:54:16.297249] Cache miss: Fetching cat_image29.jpg with ID 104 from Publisher or other routers
+[2025-11-09 22:54:16.481801] Received interest for cat_image11.jpg with ID 113 from Subscriber Subscriber7
+[2025-11-09 22:54:16.481958] Cache miss: Fetching cat_image11.jpg with ID 113 from Publisher or other routers
+[2025-11-09 22:54:16.666997] Received interest for dog_image2.jpg with ID 198 from Subscriber Subscriber4
+[2025-11-09 22:54:16.667043] Cache miss: Fetching dog_image2.jpg with ID 198 from Publisher or other routers
+[2025-11-09 22:54:16.851823] Received interest for cat_image17.jpg with ID 102 from Subscriber Subscriber4
+[2025-11-09 22:54:16.851861] Cache miss: Fetching cat_image17.jpg with ID 102 from Publisher or other routers
+[2025-11-09 22:54:17.038911] Received interest for dog_image43.jpg with ID 158 from Subscriber Subscriber4
+[2025-11-09 22:54:17.039285] Cache miss: Fetching dog_image43.jpg with ID 158 from Publisher or other routers
+[2025-11-09 22:54:17.412586] Received interest for cat_image40.jpg with ID 121 from Subscriber Subscriber2
+[2025-11-09 22:54:17.412729] Cache miss: Fetching cat_image40.jpg with ID 121 from Publisher or other routers
+[2025-11-09 22:54:17.611635] Received interest for dog_image47.jpg with ID 151 from Subscriber Subscriber2
+[2025-11-09 22:54:17.612196] Cache miss: Fetching dog_image47.jpg with ID 151 from Publisher or other routers
+[2025-11-09 22:54:17.985562] Received interest for cat_image42.jpg with ID 124 from Subscriber Subscriber8
+[2025-11-09 22:54:17.985715] Cache miss: Fetching cat_image42.jpg with ID 124 from Publisher or other routers
+[2025-11-09 22:54:18.172098] Received interest for dog_image22.jpg with ID 173 from Subscriber Subscriber9
+[2025-11-09 22:54:18.172245] Cache miss: Fetching dog_image22.jpg with ID 173 from Publisher or other routers
+[2025-11-09 22:54:18.356939] Received interest for dog_image5.jpg with ID 191 from Subscriber Subscriber3
+[2025-11-09 22:54:18.357098] Cache miss: Fetching dog_image5.jpg with ID 191 from Publisher or other routers
+[2025-11-09 22:54:18.724004] Received interest for dog_image22.jpg with ID 173 from Subscriber Subscriber12
+[2025-11-09 22:54:18.724056] Cache miss: Fetching dog_image22.jpg with ID 173 from Publisher or other routers
+[2025-11-09 22:54:18.906432] Received interest for dog_image6.jpg with ID 193 from Subscriber Subscriber4
+[2025-11-09 22:54:18.906662] Cache miss: Fetching dog_image6.jpg with ID 193 from Publisher or other routers
+[2025-11-09 22:54:19.092502] Received interest for cat_image5.jpg with ID 117 from Subscriber Subscriber2
+[2025-11-09 22:54:19.092649] Cache miss: Fetching cat_image5.jpg with ID 117 from Publisher or other routers
+[2025-11-09 22:54:19.279439] Received interest for dog_image14.jpg with ID 190 from Subscriber Subscriber8
+[2025-11-09 22:54:19.279572] Cache miss: Fetching dog_image14.jpg with ID 190 from Publisher or other routers
+[2025-11-09 22:54:19.464198] Received interest for dog_image9.jpg with ID 157 from Subscriber Subscriber2
+[2025-11-09 22:54:19.464237] Cache miss: Fetching dog_image9.jpg with ID 157 from Publisher or other routers
+[2025-11-09 22:54:19.649622] Received interest for dog_image37.jpg with ID 171 from Subscriber Subscriber5
+[2025-11-09 22:54:19.649661] Cache miss: Fetching dog_image37.jpg with ID 171 from Publisher or other routers
+[2025-11-09 22:54:19.833899] Received interest for dog_image39.jpg with ID 182 from Subscriber Subscriber8
+[2025-11-09 22:54:19.834049] Cache miss: Fetching dog_image39.jpg with ID 182 from Publisher or other routers
+[2025-11-09 22:54:20.017167] Received interest for cat_image25.jpg with ID 142 from Subscriber Subscriber10
+[2025-11-09 22:54:20.017208] Cache miss: Fetching cat_image25.jpg with ID 142 from Publisher or other routers
+[2025-11-09 22:54:20.202039] Received interest for cat_image6.jpg with ID 112 from Subscriber Subscriber4
+[2025-11-09 22:54:20.202183] Cache miss: Fetching cat_image6.jpg with ID 112 from Publisher or other routers
+[2025-11-09 22:54:20.386751] Received interest for dog_image4.jpg with ID 192 from Subscriber Subscriber8
+[2025-11-09 22:54:20.386798] Cache miss: Fetching dog_image4.jpg with ID 192 from Publisher or other routers
+[2025-11-09 22:54:20.751332] Received interest for cat_image8.jpg with ID 132 from Subscriber Subscriber10
+[2025-11-09 22:54:20.751376] Cache miss: Fetching cat_image8.jpg with ID 132 from Publisher or other routers
+[2025-11-09 22:54:20.934305] Received interest for cat_image50.jpg with ID 128 from Subscriber Subscriber12
+[2025-11-09 22:54:20.934449] Cache miss: Fetching cat_image50.jpg with ID 128 from Publisher or other routers
+[2025-11-09 22:54:21.118905] Received interest for dog_image1.jpg with ID 199 from Subscriber Subscriber8
+[2025-11-09 22:54:21.118952] Cache miss: Fetching dog_image1.jpg with ID 199 from Publisher or other routers
+[2025-11-09 22:54:21.302267] Received interest for cat_image17.jpg with ID 102 from Subscriber Subscriber12
+[2025-11-09 22:54:21.302349] Cache miss: Fetching cat_image17.jpg with ID 102 from Publisher or other routers
+[2025-11-09 22:54:21.486965] Received interest for cat_image38.jpg with ID 109 from Subscriber Subscriber12
+[2025-11-09 22:54:21.487119] Cache miss: Fetching cat_image38.jpg with ID 109 from Publisher or other routers
+[2025-11-09 22:54:21.671292] Received interest for cat_image25.jpg with ID 142 from Subscriber Subscriber2
+[2025-11-09 22:54:21.671329] Cache miss: Fetching cat_image25.jpg with ID 142 from Publisher or other routers
+[2025-11-09 22:54:21.855821] Received interest for dog_image40.jpg with ID 155 from Subscriber Subscriber4
+[2025-11-09 22:54:21.855943] Cache miss: Fetching dog_image40.jpg with ID 155 from Publisher or other routers
+[2025-11-09 22:54:22.040386] Received interest for dog_image3.jpg with ID 195 from Subscriber Subscriber12
+[2025-11-09 22:54:22.040522] Cache miss: Fetching dog_image3.jpg with ID 195 from Publisher or other routers
+[2025-11-09 22:54:22.224108] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber9
+[2025-11-09 22:54:22.224244] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-09 22:54:22.590768] Received interest for cat_image42.jpg with ID 124 from Subscriber Subscriber12
+[2025-11-09 22:54:22.590808] Cache miss: Fetching cat_image42.jpg with ID 124 from Publisher or other routers
+[2025-11-09 22:54:22.820580] Received interest for dog_image25.jpg with ID 162 from Subscriber Subscriber10
+[2025-11-09 22:54:22.820615] Cache miss: Fetching dog_image25.jpg with ID 162 from Publisher or other routers
+[2025-11-09 22:54:23.004990] Received interest for cat_image7.jpg with ID 111 from Subscriber Subscriber5
+[2025-11-09 22:54:23.005115] Cache miss: Fetching cat_image7.jpg with ID 111 from Publisher or other routers
+[2025-11-09 22:54:23.188654] Received interest for dog_image30.jpg with ID 164 from Subscriber Subscriber10
+[2025-11-09 22:54:23.188688] Cache miss: Fetching dog_image30.jpg with ID 164 from Publisher or other routers
+[2025-11-09 22:54:23.372309] Received interest for dog_image47.jpg with ID 151 from Subscriber Subscriber2
+[2025-11-09 22:54:23.372343] Cache miss: Fetching dog_image47.jpg with ID 151 from Publisher or other routers
+[2025-11-09 22:54:23.556508] Received interest for cat_image21.jpg with ID 138 from Subscriber Subscriber9
+[2025-11-09 22:54:23.556546] Cache miss: Fetching cat_image21.jpg with ID 138 from Publisher or other routers
+[2025-11-09 22:54:23.739014] Received interest for dog_image34.jpg with ID 176 from Subscriber Subscriber10
+[2025-11-09 22:54:23.739048] Cache miss: Fetching dog_image34.jpg with ID 176 from Publisher or other routers
+[2025-11-09 22:54:24.106873] Received interest for dog_image12.jpg with ID 184 from Subscriber Subscriber4
+[2025-11-09 22:54:24.107000] Cache miss: Fetching dog_image12.jpg with ID 184 from Publisher or other routers
+[2025-11-09 22:54:24.291540] Received interest for cat_image30.jpg with ID 144 from Subscriber Subscriber2
+[2025-11-09 22:54:24.291577] Cache miss: Fetching cat_image30.jpg with ID 144 from Publisher or other routers
+[2025-11-09 22:54:24.476020] Received interest for dog_image2.jpg with ID 198 from Subscriber Subscriber10
+[2025-11-09 22:54:24.476055] Cache miss: Fetching dog_image2.jpg with ID 198 from Publisher or other routers
+[2025-11-10 10:32:20.587418] Received interest for dog_image7.jpg with ID 194 from Subscriber Subscriber2
+[2025-11-10 10:32:20.587638] Cache miss: Fetching dog_image7.jpg with ID 194 from Publisher or other routers
+[2025-11-10 10:32:20.834036] Received interest for cat_image24.jpg with ID 143 from Subscriber Subscriber8
+[2025-11-10 10:32:20.834164] Cache miss: Fetching cat_image24.jpg with ID 143 from Publisher or other routers
+[2025-11-10 10:32:21.082957] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber2
+[2025-11-10 10:32:21.083051] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-10 10:32:21.267764] Received interest for dog_image31.jpg with ID 163 from Subscriber Subscriber5
+[2025-11-10 10:32:21.268113] Cache miss: Fetching dog_image31.jpg with ID 163 from Publisher or other routers
+[2025-11-10 10:32:21.452424] Received interest for dog_image17.jpg with ID 186 from Subscriber Subscriber3
+[2025-11-10 10:32:21.452516] Cache miss: Fetching dog_image17.jpg with ID 186 from Publisher or other routers
+[2025-11-10 10:32:21.640666] Received interest for cat_image30.jpg with ID 144 from Subscriber Subscriber1
+[2025-11-10 10:32:21.640756] Cache miss: Fetching cat_image30.jpg with ID 144 from Publisher or other routers
+[2025-11-10 10:32:21.831890] Received interest for cat_image35.jpg with ID 139 from Subscriber Subscriber1
+[2025-11-10 10:32:21.832007] Cache miss: Fetching cat_image35.jpg with ID 139 from Publisher or other routers
+[2025-11-10 10:32:22.023998] Received interest for cat_image30.jpg with ID 144 from Subscriber Subscriber11
+[2025-11-10 10:32:22.024040] Cache miss: Fetching cat_image30.jpg with ID 144 from Publisher or other routers
+[2025-11-10 10:32:22.214562] Received interest for cat_image27.jpg with ID 149 from Subscriber Subscriber9
+[2025-11-10 10:32:22.214765] Cache miss: Fetching cat_image27.jpg with ID 149 from Publisher or other routers
+[2025-11-10 10:32:22.408291] Received interest for cat_image40.jpg with ID 121 from Subscriber Subscriber7
+[2025-11-10 10:32:22.408401] Cache miss: Fetching cat_image40.jpg with ID 121 from Publisher or other routers
+[2025-11-10 10:32:22.792878] Received interest for dog_image35.jpg with ID 177 from Subscriber Subscriber9
+[2025-11-10 10:32:22.792918] Cache miss: Fetching dog_image35.jpg with ID 177 from Publisher or other routers
+[2025-11-10 10:32:22.983408] Received interest for dog_image28.jpg with ID 189 from Subscriber Subscriber7
+[2025-11-10 10:32:22.983556] Cache miss: Fetching dog_image28.jpg with ID 189 from Publisher or other routers
+[2025-11-10 10:32:23.175312] Received interest for cat_image33.jpg with ID 148 from Subscriber Subscriber2
+[2025-11-10 10:32:23.175408] Cache miss: Fetching cat_image33.jpg with ID 148 from Publisher or other routers
+[2025-11-10 10:32:23.362653] Received interest for dog_image13.jpg with ID 183 from Subscriber Subscriber1
+[2025-11-10 10:32:23.362763] Cache miss: Fetching dog_image13.jpg with ID 183 from Publisher or other routers
+[2025-11-10 10:32:23.548548] Received interest for dog_image29.jpg with ID 188 from Subscriber Subscriber5
+[2025-11-10 10:32:23.548648] Cache miss: Fetching dog_image29.jpg with ID 188 from Publisher or other routers
+[2025-11-10 10:32:23.736846] Received interest for dog_image2.jpg with ID 198 from Subscriber Subscriber7
+[2025-11-10 10:32:23.736964] Cache miss: Fetching dog_image2.jpg with ID 198 from Publisher or other routers
+[2025-11-10 10:32:23.925294] Received interest for dog_image42.jpg with ID 159 from Subscriber Subscriber5
+[2025-11-10 10:32:23.925399] Cache miss: Fetching dog_image42.jpg with ID 159 from Publisher or other routers
+[2025-11-10 10:32:24.111783] Received interest for dog_image1.jpg with ID 199 from Subscriber Subscriber10
+[2025-11-10 10:32:24.111886] Cache miss: Fetching dog_image1.jpg with ID 199 from Publisher or other routers
+[2025-11-10 10:32:24.298405] Received interest for cat_image22.jpg with ID 135 from Subscriber Subscriber6
+[2025-11-10 10:32:24.298504] Cache miss: Fetching cat_image22.jpg with ID 135 from Publisher or other routers
+[2025-11-10 10:32:24.486520] Received interest for dog_image8.jpg with ID 160 from Subscriber Subscriber2
+[2025-11-10 10:32:24.486625] Cache miss: Fetching dog_image8.jpg with ID 160 from Publisher or other routers
+[2025-11-10 10:32:24.675533] Received interest for cat_image9.jpg with ID 133 from Subscriber Subscriber2
+[2025-11-10 10:32:24.675652] Cache miss: Fetching cat_image9.jpg with ID 133 from Publisher or other routers
+[2025-11-10 10:32:24.861514] Received interest for dog_image17.jpg with ID 186 from Subscriber Subscriber9
+[2025-11-10 10:32:24.861556] Cache miss: Fetching dog_image17.jpg with ID 186 from Publisher or other routers
+[2025-11-10 10:32:25.044604] Received interest for cat_image6.jpg with ID 112 from Subscriber Subscriber9
+[2025-11-10 10:32:25.044733] Cache miss: Fetching cat_image6.jpg with ID 112 from Publisher or other routers
+[2025-11-10 10:32:25.230302] Received interest for dog_image12.jpg with ID 184 from Subscriber Subscriber9
+[2025-11-10 10:32:25.230403] Cache miss: Fetching dog_image12.jpg with ID 184 from Publisher or other routers
+[2025-11-10 10:32:25.416205] Received interest for dog_image49.jpg with ID 196 from Subscriber Subscriber2
+[2025-11-10 10:32:25.416322] Cache miss: Fetching dog_image49.jpg with ID 196 from Publisher or other routers
+[2025-11-10 10:32:25.603531] Received interest for cat_image2.jpg with ID 105 from Subscriber Subscriber3
+[2025-11-10 10:32:25.603651] Cache miss: Fetching cat_image2.jpg with ID 105 from Publisher or other routers
+[2025-11-10 10:32:25.792117] Received interest for dog_image21.jpg with ID 178 from Subscriber Subscriber3
+[2025-11-10 10:32:25.792409] Cache miss: Fetching dog_image21.jpg with ID 178 from Publisher or other routers
+[2025-11-10 10:32:26.000969] Received interest for dog_image32.jpg with ID 167 from Subscriber Subscriber8
+[2025-11-10 10:32:26.001133] Cache miss: Fetching dog_image32.jpg with ID 167 from Publisher or other routers
+[2025-11-10 10:32:26.192859] Received interest for cat_image15.jpg with ID 103 from Subscriber Subscriber11
+[2025-11-10 10:32:26.192970] Cache miss: Fetching cat_image15.jpg with ID 103 from Publisher or other routers
+[2025-11-10 10:32:26.381028] Received interest for dog_image41.jpg with ID 156 from Subscriber Subscriber8
+[2025-11-10 10:32:26.381159] Cache miss: Fetching dog_image41.jpg with ID 156 from Publisher or other routers
+[2025-11-10 10:32:26.747066] Received interest for cat_image7.jpg with ID 111 from Subscriber Subscriber12
+[2025-11-10 10:32:26.747425] Cache miss: Fetching cat_image7.jpg with ID 111 from Publisher or other routers
+[2025-11-10 10:32:26.936025] Received interest for cat_image39.jpg with ID 114 from Subscriber Subscriber11
+[2025-11-10 10:32:26.936137] Cache miss: Fetching cat_image39.jpg with ID 114 from Publisher or other routers
+[2025-11-10 10:32:27.673408] Received interest for cat_image36.jpg with ID 134 from Subscriber Subscriber7
+[2025-11-10 10:32:27.673663] Cache miss: Fetching cat_image36.jpg with ID 134 from Publisher or other routers
+[2025-11-10 10:32:27.862147] Received interest for dog_image19.jpg with ID 161 from Subscriber Subscriber8
+[2025-11-10 10:32:27.862268] Cache miss: Fetching dog_image19.jpg with ID 161 from Publisher or other routers
+[2025-11-10 10:32:28.051776] Received interest for cat_image10.jpg with ID 110 from Subscriber Subscriber6
+[2025-11-10 10:32:28.052006] Cache miss: Fetching cat_image10.jpg with ID 110 from Publisher or other routers
+[2025-11-10 10:32:28.241779] Received interest for dog_image27.jpg with ID 169 from Subscriber Subscriber6
+[2025-11-10 10:32:28.241888] Cache miss: Fetching dog_image27.jpg with ID 169 from Publisher or other routers
+[2025-11-10 10:32:28.430645] Received interest for cat_image25.jpg with ID 142 from Subscriber Subscriber11
+[2025-11-10 10:32:28.430778] Cache miss: Fetching cat_image25.jpg with ID 142 from Publisher or other routers
+[2025-11-10 10:32:28.800458] Received interest for dog_image18.jpg with ID 166 from Subscriber Subscriber11
+[2025-11-10 10:32:28.800572] Cache miss: Fetching dog_image18.jpg with ID 166 from Publisher or other routers
+[2025-11-10 10:32:28.986219] Received interest for dog_image40.jpg with ID 155 from Subscriber Subscriber9
+[2025-11-10 10:32:28.986334] Cache miss: Fetching dog_image40.jpg with ID 155 from Publisher or other routers
+[2025-11-10 10:32:29.357787] Received interest for dog_image4.jpg with ID 192 from Subscriber Subscriber1
+[2025-11-10 10:32:29.357921] Cache miss: Fetching dog_image4.jpg with ID 192 from Publisher or other routers
+[2025-11-10 10:32:29.545185] Received interest for dog_image2.jpg with ID 198 from Subscriber Subscriber12
+[2025-11-10 10:32:29.545227] Cache miss: Fetching dog_image2.jpg with ID 198 from Publisher or other routers
+[2025-11-10 10:32:29.734939] Received interest for cat_image20.jpg with ID 137 from Subscriber Subscriber4
+[2025-11-10 10:32:29.735070] Cache miss: Fetching cat_image20.jpg with ID 137 from Publisher or other routers
+[2025-11-10 10:32:30.106131] Received interest for cat_image50.jpg with ID 128 from Subscriber Subscriber1
+[2025-11-10 10:32:30.106267] Cache miss: Fetching cat_image50.jpg with ID 128 from Publisher or other routers
+[2025-11-10 10:32:30.295083] Received interest for cat_image4.jpg with ID 116 from Subscriber Subscriber2
+[2025-11-10 10:32:30.295214] Cache miss: Fetching cat_image4.jpg with ID 116 from Publisher or other routers
+[2025-11-10 10:32:30.669344] Received interest for cat_image31.jpg with ID 141 from Subscriber Subscriber4
+[2025-11-10 10:32:30.669470] Cache miss: Fetching cat_image31.jpg with ID 141 from Publisher or other routers
+[2025-11-10 10:32:31.044121] Received interest for cat_image1.jpg with ID 101 from Subscriber Subscriber9
+[2025-11-10 10:32:31.044259] Cache miss: Fetching cat_image1.jpg with ID 101 from Publisher or other routers
+[2025-11-10 10:32:31.233578] Received interest for cat_image25.jpg with ID 142 from Subscriber Subscriber3
+[2025-11-10 10:32:31.233610] Cache miss: Fetching cat_image25.jpg with ID 142 from Publisher or other routers
+[2025-11-10 10:32:31.417936] Received interest for cat_image35.jpg with ID 139 from Subscriber Subscriber7
+[2025-11-10 10:32:31.417975] Cache miss: Fetching cat_image35.jpg with ID 139 from Publisher or other routers
+[2025-11-10 10:32:31.605466] Received interest for cat_image17.jpg with ID 102 from Subscriber Subscriber7
+[2025-11-10 10:32:31.605583] Cache miss: Fetching cat_image17.jpg with ID 102 from Publisher or other routers
+[2025-11-10 10:32:31.795476] Received interest for dog_image30.jpg with ID 164 from Subscriber Subscriber7
+[2025-11-10 10:32:31.795593] Cache miss: Fetching dog_image30.jpg with ID 164 from Publisher or other routers
+[2025-11-10 10:32:31.986605] Received interest for cat_image3.jpg with ID 106 from Subscriber Subscriber5
+[2025-11-10 10:32:31.986760] Cache miss: Fetching cat_image3.jpg with ID 106 from Publisher or other routers
+[2025-11-10 10:32:32.177042] Received interest for cat_image28.jpg with ID 107 from Subscriber Subscriber11
+[2025-11-10 10:32:32.177453] Cache miss: Fetching cat_image28.jpg with ID 107 from Publisher or other routers
+[2025-11-10 10:32:32.368589] Received interest for cat_image39.jpg with ID 114 from Subscriber Subscriber2
+[2025-11-10 10:32:32.368623] Cache miss: Fetching cat_image39.jpg with ID 114 from Publisher or other routers
+[2025-11-10 10:32:32.555560] Received interest for dog_image24.jpg with ID 165 from Subscriber Subscriber9
+[2025-11-10 10:32:32.555856] Cache miss: Fetching dog_image24.jpg with ID 165 from Publisher or other routers
+[2025-11-10 10:32:32.746217] Received interest for cat_image7.jpg with ID 111 from Subscriber Subscriber3
+[2025-11-10 10:32:32.746257] Cache miss: Fetching cat_image7.jpg with ID 111 from Publisher or other routers
+[2025-11-10 10:32:32.934827] Received interest for dog_image15.jpg with ID 187 from Subscriber Subscriber2
+[2025-11-10 10:32:32.935038] Cache miss: Fetching dog_image15.jpg with ID 187 from Publisher or other routers
+[2025-11-10 10:32:33.124621] Received interest for dog_image49.jpg with ID 196 from Subscriber Subscriber12
+[2025-11-10 10:32:33.124662] Cache miss: Fetching dog_image49.jpg with ID 196 from Publisher or other routers
+[2025-11-10 10:32:33.493277] Received interest for dog_image45.jpg with ID 152 from Subscriber Subscriber3
+[2025-11-10 10:32:33.493408] Cache miss: Fetching dog_image45.jpg with ID 152 from Publisher or other routers
+[2025-11-10 10:32:33.684261] Received interest for dog_image36.jpg with ID 174 from Subscriber Subscriber7
+[2025-11-10 10:32:33.684389] Cache miss: Fetching dog_image36.jpg with ID 174 from Publisher or other routers

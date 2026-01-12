@@ -1,0 +1,17 @@
+{
+  "name": "ats_integration",
+  "version": "1.0.0",
+  "description": "This project is a small backend service built with **Python** and the **Serverless Framework** (AWS Lambda + API Gateway). It exposes a **unified REST API** for jobs, candidates, and applications while internally calling a (configurable) ATS API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^3.38.0",
+    "serverless-offline": "^13.3.0",
+    "serverless-python-requirements": "^6.1.2"
+  }
+}

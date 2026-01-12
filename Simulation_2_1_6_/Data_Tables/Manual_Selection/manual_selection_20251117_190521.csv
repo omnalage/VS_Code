@@ -1,0 +1,2 @@
+Timestamp,Content_Request,Traced_Path,Selected_Router,Avg_cmBA
+2025-11-17 19:05:21.865541,dog_image7.jpg,Router2 -> Router5 -> Router8 -> Router11 -> Router14 -> Router17 -> Router20 -> Router23 -> Router26 -> Router27,Router27,0.18460192097214564

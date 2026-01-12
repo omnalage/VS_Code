@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard - HMS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        .navbar {
+            background: white;
+            padding: 15px 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .navbar-menu {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .navbar-menu a, .logout-btn {
+            color: #666;
+            text-decoration: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            font-size: 14px;
+        }
+        
+        .logout-btn {
+            background: #667eea;
+            color: white;
+            border-radius: 5px;
+        }
+        
+        .logout-btn:hover {
+            background: #764ba2;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 15px;
+        }
+        
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+        }
+        
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .search-bar {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .search-bar input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #764ba2;
+        }
+        
+        .btn-secondary {
+            background: #ddd;
+            color: #333;
+        }
+        
+        .btn-danger {
+            background: #f44336;
+            color: white;
+        }
+        
+        .btn-danger:hover {
+            background: #da190b;
+        }
+        
+        .doctor-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .doctor-info {
+            flex: 1;
+        }
+        
+        .doctor-info h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .doctor-info p {
+            color: #666;
+            font-size: 14px;
+            margin: 3px 0;
+        }
+        
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        
+        .table th {
+            background: #f5f5f5;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid #ddd;
+        }
+        
+        .table td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .table tr:hover {
+            background: #f9f9f9;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-scheduled {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+        
+        .status-completed {
+            background: #e8f5e9;
+            color: #388e3c;
+        }
+        
+        .status-cancelled {
+            background: #ffebee;
+            color: #d32f2f;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+        
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal.active {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            position: relative;
+        }
+        
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            font-size: 24px;
+            cursor: pointer;
+            color: #999;
+        }
+        
+        .modal-close:hover {
+            color: #333;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        
+        .success-message {
+            background: #d4edda;
+            color: #155724;
+            padding: 12px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            display: none;
+        }
+        
+        .success-message.show {
+            display: block;
+        }
+        
+        .slots-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .slot {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .slot:hover {
+            border-color: #667eea;
+            background: #f0f0ff;
+        }
+        
+        .slot.selected {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        
+        .slot small {
+            display: block;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-brand">🏥 HMS - Patient Dashboard</div>
+        <div class="navbar-menu">
+            <a href="#available-doctors">Available Doctors</a>
+            <a href="#my-appointments">My Appointments</a>
+            <a href="#my-reports" onclick="openPatientReportsModal()">My Reports</a>
+            <span id="patient-name" style="color: #666;"></span>
+            <button class="logout-btn" onclick="handleLogout()">Logout</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>Welcome, <span id="welcome-name"></span></h1>
+            <p>Book an appointment with a doctor from our network</p>
+        </div>
+        
+        <!-- Available Doctors Section -->
+        <div class="section-title" id="available-doctors">👨‍⚕️ Available Doctors</div>
+        <div class="card">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search doctors by name or specialization...">
+                <button class="btn btn-secondary" onclick="searchDoctors()">Search</button>
+            </div>
+            <div id="doctors-list"></div>
+            <div class="empty-state" id="no-doctors">
+                <div class="empty-state-icon">👨‍⚕️</div>
+                <p>No doctors available</p>
+            </div>
+        </div>
+        
+        <!-- My Appointments Section -->
+        <div class="section-title" id="my-appointments">📅 My Appointments</div>
+        <div class="card">
+            <table class="table" id="appointments-table">
+                <thead>
+                    <tr>
+                        <th>Doctor</th>
+                        <th>Specialization</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="appointments-body"></tbody>
+            </table>
+            <div class="empty-state" id="no-appointments">
+                <div class="empty-state-icon">📭</div>
+                <p>No appointments booked yet. Book your first appointment!</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Book Appointment Modal -->
+    <div class="modal" id="book-modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeBookModal()">&times;</span>
+            <h2>Book Appointment</h2>
+            <div class="success-message" id="booking-success">Appointment booked successfully!</div>
+            <form onsubmit="handleBookAppointment(event)">
+                <div class="form-group">
+                    <label>Doctor</label>
+                    <input type="text" id="selected-doctor" disabled>
+                </div>
+                
+                <div class="form-group">
+                    <label for="appointment-reason">Reason for Visit</label>
+                    <textarea id="appointment-reason" placeholder="Describe your reason for the appointment..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>Select Available Slot</label>
+                    <div class="slots-container" id="slots-container"></div>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 20px;">Book Appointment</button>
+            </form>
+        </div>
+    </div>
+
+        <!-- Patient Reports Modal -->
+        <div class="modal" id="patient-reports-modal">
+            <div class="modal-content">
+                <span class="modal-close" onclick="closePatientReportsModal()">&times;</span>
+                <h2>My Medical Reports</h2>
+                <div id="patient-reports-list" style="max-height:360px; overflow:auto; border-top:1px solid #eee; padding-top:10px;"></div>
+                <div id="patient-reports-empty" class="empty-state" style="display:none; margin-top:10px;"><p>No reports available</p></div>
+            </div>
+        </div>
+    
+    <script>
+        // Use relative API path so requests are same-origin and cookies are sent
+        const API_URL = '/api';
+        let currentUser = null;
+        let selectedDoctor = null;
+        let selectedSlot = null;
+
+        // Helper to read cookie values (CSRF token)
+        function getCookie(name) {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+            return '';
+        }
+
+        // Sanitize server error responses so we don't inject raw HTML (Django debug pages)
+        function sanitizeError(err) {
+            if (!err) return '';
+            if (typeof err !== 'string') return String(err);
+            const stripped = err.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+            if (stripped.length > 0) return stripped;
+            return 'Server error';
+        }
+
+        // Small wrapper for API requests to centralize CSRF, credentials and error parsing
+        async function apiRequest(path, opts = {}) {
+            const method = (opts.method || 'GET').toUpperCase();
+            const headers = Object.assign({}, opts.headers || {});
+            if (opts.json !== false && method !== 'GET' && !headers['Content-Type']) {
+                headers['Content-Type'] = 'application/json';
+            }
+            if (!opts.skipCsrf && method !== 'GET') {
+                headers['X-CSRFToken'] = getCookie('csrftoken');
+            }
+
+            const res = await fetch(`${API_URL}${path}`, {
+                method,
+                headers,
+                credentials: 'include',
+                body: opts.body && headers['Content-Type'] === 'application/json' ? JSON.stringify(opts.body) : opts.body
+            });
+
+            const ct = res.headers.get('content-type') || '';
+            let body = null;
+            try {
+                if (ct.includes('application/json')) body = await res.json();
+                else body = await res.text();
+            } catch (e) {
+                body = null;
+            }
+
+            if (!res.ok) {
+                const errMsg = (body && (body.error || JSON.stringify(body))) || body || `HTTP ${res.status}`;
+                throw { status: res.status, body: errMsg };
+            }
+
+            return body;
+        }
+
+        // Cache selectors and data
+        const elDoctorsList = () => document.getElementById('doctors-list');
+        const elSearchInput = () => document.getElementById('search-input');
+        let cachedDoctors = [];
+        
+        function handleLogout() {
+            isAutoLogoutDisabled = true;
+            if (autoLogoutTimer) clearTimeout(autoLogoutTimer);
+            console.log('[AUTO-LOGOUT] Manual logout triggered. Clearing timer.');
+            localStorage.removeItem('user');
+            window.location.href = '/';
+        }
+
+        // Auto-logout after inactivity (10 minutes)
+        let autoLogoutTimer = null;
+        const AUTO_LOGOUT_MS = 10 * 60 * 1000; // 10 minutes
+        let autoLogoutStartTime = null;
+        let isAutoLogoutDisabled = false;
+
+        function handleAutoLogout() {
+            console.warn('[AUTO-LOGOUT] Inactivity timeout triggered');
+            (async () => {
+                try {
+                    await apiRequest('/auth/logout/', { method: 'POST' });
+                } catch (e) {
+                    console.warn('[AUTO-LOGOUT] Server logout failed:', e);
+                }
+                alert('You have been logged out due to inactivity');
+                window.location.href = '/';
+            })();
+        }
+
+        function startAutoLogoutTimer() {
+            if (isAutoLogoutDisabled) return;
+            if (autoLogoutTimer) clearTimeout(autoLogoutTimer);
+            autoLogoutStartTime = Date.now();
+            autoLogoutTimer = setTimeout(handleAutoLogout, AUTO_LOGOUT_MS);
+            const nextLogoutMin = (AUTO_LOGOUT_MS / 60000).toFixed(0);
+            console.log(`[AUTO-LOGOUT] Timer started. Will logout in ${nextLogoutMin} minutes at ${new Date(Date.now() + AUTO_LOGOUT_MS).toLocaleTimeString()}`);
+        }
+
+        function resetAutoLogoutTimer() {
+            if (isAutoLogoutDisabled) return;
+            const elapsed = autoLogoutStartTime ? ((Date.now() - autoLogoutStartTime) / 60000).toFixed(1) : '?';
+            console.log(`[AUTO-LOGOUT] Activity detected (${elapsed} min elapsed). Resetting timer...`);
+            startAutoLogoutTimer();
+        }
+
+        ['click', 'mousemove', 'keydown', 'scroll', 'touchstart'].forEach(evt => {
+            window.addEventListener(evt, resetAutoLogoutTimer, { passive: true });
+        });
+        
+        async function initializeDashboard() {
+            try {
+                const data = await apiRequest('/auth/current_user/');
+                currentUser = data;
+
+                document.getElementById('welcome-name').textContent = currentUser.user.first_name || currentUser.user.username;
+                document.getElementById('patient-name').textContent = currentUser.user.first_name || currentUser.user.username;
+
+                loadAvailableDoctors();
+                loadMyAppointments();
+                // start inactivity auto-logout timer
+                console.log('[AUTO-LOGOUT] Dashboard initialized. Starting auto-logout timer...');
+                startAutoLogoutTimer();
+            } catch (error) {
+                console.error('Failed to initialize dashboard:', error);
+                window.location.href = '/';
+            }
+        }
+        
+        async function loadAvailableDoctors() {
+            try {
+                const doctors = await apiRequest('/doctors/');
+                cachedDoctors = doctors || [];
+                const doctorsList = elDoctorsList();
+                const noDoctors = document.getElementById('no-doctors');
+
+                if (!doctors || doctors.length === 0) {
+                    doctorsList.innerHTML = '';
+                    noDoctors.style.display = 'block';
+                } else {
+                    noDoctors.style.display = 'none';
+                    doctorsList.innerHTML = doctors.map(doctor => `
+                        <div class="doctor-card">
+                            <div class="doctor-info">
+                                <h3>Dr. ${doctor.user.first_name} ${doctor.user.last_name}</h3>
+                                <p><strong>Specialization:</strong> ${doctor.specialization}</p>
+                                <p><strong>Experience:</strong> ${doctor.experience_years} years</p>
+                                <p><strong>Consultation Fee:</strong> ₹${doctor.consultation_fee}</p>
+                            </div>
+                            <button class="btn btn-primary" onclick="openBookModal(${doctor.id}, '${doctor.user.first_name} ${doctor.user.last_name}')">Book Now</button>
+                        </div>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('Failed to load doctors:', error);
+            }
+        }
+        
+        async function loadMyAppointments() {
+            try {
+                const appointments = await apiRequest('/appointments/');
+                const tbody = document.getElementById('appointments-body');
+                const noAppointments = document.getElementById('no-appointments');
+
+                if (!appointments || appointments.length === 0) {
+                    tbody.innerHTML = '';
+                    noAppointments.style.display = 'block';
+                    document.getElementById('appointments-table').style.display = 'none';
+                } else {
+                    noAppointments.style.display = 'none';
+                    document.getElementById('appointments-table').style.display = 'table';
+                    tbody.innerHTML = appointments.map(apt => `
+                        <tr>
+                            <td>${apt.doctor_name}</td>
+                            <td>-</td>
+                            <td>${apt.appointment_date}</td>
+                            <td>${apt.start_time}</td>
+                            <td><span class="status-badge status-${apt.status}">${apt.status.toUpperCase()}</span></td>
+                            <td>
+                                ${apt.status === 'scheduled' ? `<button class="btn btn-danger" onclick="cancelAppointment(${apt.id})">Cancel</button>` : '-'}
+                            </td>
+                        </tr>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('Failed to load appointments:', error);
+            }
+        }
+        
+        async function openBookModal(doctorId, doctorName) {
+            selectedDoctor = doctorId;
+            selectedSlot = null;
+            
+            document.getElementById('selected-doctor').value = doctorName;
+            document.getElementById('appointment-reason').value = '';
+            
+            try {
+                const slots = await apiRequest(`/doctors/${doctorId}/available_slots/`);
+                const slotsContainer = document.getElementById('slots-container');
+
+                if (!slots || slots.length === 0) {
+                    slotsContainer.innerHTML = '<p style="text-align: center; color: #999;">No available slots</p>';
+                } else {
+                    slotsContainer.innerHTML = slots.map((slot, idx) => `
+                        <div class="slot" onclick="selectSlot(this, '${slot.start_time}', '${slot.end_time}')" data-idx="${idx}">
+                            <strong>${slot.start_time}</strong>
+                            <small>${slot.day_of_week}</small>
+                        </div>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('Failed to load slots:', error);
+            }
+            
+            document.getElementById('book-modal').classList.add('active');
+        }
+        
+        function closeBookModal() {
+            document.getElementById('book-modal').classList.remove('active');
+            document.getElementById('booking-success').classList.remove('show');
+        }
+        
+        function selectSlot(element, startTime, endTime) {
+            document.querySelectorAll('.slot').forEach(slot => slot.classList.remove('selected'));
+            element.classList.add('selected');
+            selectedSlot = { start_time: startTime, end_time: endTime };
+        }
+        
+        async function handleBookAppointment(event) {
+            event.preventDefault();
+            
+            if (!selectedSlot) {
+                alert('Please select a time slot');
+                return;
+            }
+            
+            const today = new Date();
+            const appointmentDate = today.toISOString().split('T')[0];
+            
+            const data = {
+                doctor_id: selectedDoctor,
+                appointment_date: appointmentDate,
+                start_time: selectedSlot.start_time,
+                end_time: selectedSlot.end_time,
+                reason: document.getElementById('appointment-reason').value
+            };
+            
+            try {
+                await apiRequest('/appointments/book_appointment/', { method: 'POST', body: data });
+                document.getElementById('booking-success').classList.add('show');
+                setTimeout(() => {
+                    closeBookModal();
+                    loadMyAppointments();
+                }, 1500);
+            } catch (error) {
+                console.error('Failed to book appointment:', error);
+                alert(sanitizeError(error.body) || `Failed to book appointment (status ${error.status})`);
+            }
+        }
+        
+        async function cancelAppointment(appointmentId) {
+            if (confirm('Are you sure you want to cancel this appointment?')) {
+                try {
+                    await apiRequest(`/appointments/${appointmentId}/cancel_appointment/`, { method: 'POST' });
+                    loadMyAppointments();
+                } catch (error) {
+                    console.error('Failed to cancel appointment:', error);
+                    alert(sanitizeError(error.body) || `Failed to cancel appointment (status ${error.status})`);
+                }
+            }
+        }
+        
+        // Debounce helper
+        function debounce(fn, wait) {
+            let t = null;
+            return function (...args) {
+                clearTimeout(t);
+                t = setTimeout(() => fn.apply(this, args), wait);
+            };
+        }
+
+        // Search/filter cached doctors by name or specialization
+        const doSearch = () => {
+            const q = (elSearchInput().value || '').toLowerCase().trim();
+            const list = cachedDoctors.filter(d => {
+                const name = `${d.user.first_name} ${d.user.last_name}`.toLowerCase();
+                const spec = (d.specialization || '').toLowerCase();
+                return !q || name.includes(q) || spec.includes(q);
+            });
+            const doctorsList = elDoctorsList();
+            const noDoctors = document.getElementById('no-doctors');
+            if (list.length === 0) {
+                doctorsList.innerHTML = '';
+                noDoctors.style.display = 'block';
+            } else {
+                noDoctors.style.display = 'none';
+                doctorsList.innerHTML = list.map(doctor => `
+                    <div class="doctor-card">
+                        <div class="doctor-info">
+                            <h3>Dr. ${doctor.user.first_name} ${doctor.user.last_name}</h3>
+                            <p><strong>Specialization:</strong> ${doctor.specialization}</p>
+                            <p><strong>Experience:</strong> ${doctor.experience_years} years</p>
+                            <p><strong>Consultation Fee:</strong> ₹${doctor.consultation_fee}</p>
+                        </div>
+                        <button class="btn btn-primary" onclick="openBookModal(${doctor.id}, '${doctor.user.first_name} ${doctor.user.last_name}')">Book Now</button>
+                    </div>
+                `).join('');
+            }
+        };
+
+        const searchDoctors = debounce(doSearch, 250);
+        
+        // Patient reports: open/close modal and load user's reports
+        function openPatientReportsModal() {
+            document.getElementById('patient-reports-modal').classList.add('active');
+            // load reports after opening so spinner or state can be shown if needed
+            loadPatientReports();
+        }
+
+        function closePatientReportsModal() {
+            document.getElementById('patient-reports-modal').classList.remove('active');
+            const list = document.getElementById('patient-reports-list');
+            list.innerHTML = '';
+        }
+
+        async function loadPatientReports() {
+            try {
+                const patientId = currentUser && currentUser.user ? currentUser.user.id : '';
+                // if backend supports implicit patient scoping for authenticated users, calling without patient_id also works
+                const query = patientId ? `?patient_id=${patientId}` : '';
+                const reports = await apiRequest(`/medical_reports/${query}`);
+                const listEl = document.getElementById('patient-reports-list');
+                const empty = document.getElementById('patient-reports-empty');
+
+                if (!reports || reports.length === 0) {
+                    listEl.innerHTML = '';
+                    empty.style.display = 'block';
+                    return;
+                }
+
+                empty.style.display = 'none';
+                listEl.innerHTML = reports.map(r => `
+                    <div class="doctor-card">
+                        <div class="doctor-info">
+                            <h3>${r.summary || 'Medical Report'}</h3>
+                            <p style="font-size:13px;color:#666;margin-top:6px;"><strong>Date:</strong> ${r.report_date || r.created_at || ''}</p>
+                            <p style="margin-top:8px;">${r.details ? (r.details.length > 300 ? r.details.slice(0, 300) + '...' : r.details) : ''}</p>
+                            <p style="font-size:12px;color:#999;margin-top:8px;">Provided by: ${r.doctor_name || 'Staff'}</p>
+                        </div>
+                        <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-end;">
+                            ${r.file || r.file_url ? `<a class="btn btn-secondary" href="${r.file || r.file_url}" target="_blank">Download</a>` : ''}
+                            <button class="btn btn-primary" onclick="viewReportDetails(${r.id})">View</button>
+                        </div>
+                    </div>
+                `).join('');
+
+            } catch (error) {
+                console.error('Failed to load patient reports:', error);
+                alert(sanitizeError(error.body) || `Failed to load reports (status ${error.status})`);
+            }
+        }
+
+        // Lightweight viewer that opens a new tab with the file or shows details in an alert as fallback
+        function viewReportDetails(reportId) {
+            // Prefer navigating to the file URL if available in cached list
+            // For simplicity, just open the detail API endpoint in a new tab which may return JSON/file
+            window.open(`/api/medical_reports/${reportId}/`, '_blank');
+        }
+
+        // Initialize on page load
+        initializeDashboard();
+    </script>
+</body>
+</html>

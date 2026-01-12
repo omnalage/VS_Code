@@ -1,0 +1,59 @@
+service: ats-integration-service
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: us-east-1
+  environment:
+    ATS_API_KEY: ${env:ATS_API_KEY}
+    ATS_BASE_URL: ${env:ATS_BASE_URL}
+    ATS_ACCOUNT_ID: ${env:ATS_ACCOUNT_ID}
+    LOG_LEVEL: ${env:LOG_LEVEL, 'INFO'}
+    PYTHONPATH: /var/task
+
+plugins:
+  - serverless-offline
+  - serverless-python-requirements
+
+functions:
+  getJobs:
+    handler: handlers/jobs.get_jobs
+    events:
+      - http:
+          path: jobs
+          method: get
+          cors: true
+    environment:
+      PYTHONPATH: /var/task
+
+  createCandidate:
+    handler: handlers/candidates.create_candidate
+    events:
+      - http:
+          path: candidates
+          method: post
+          cors: true
+    environment:
+      PYTHONPATH: /var/task
+
+  getApplications:
+    handler: handlers/applications.get_applications
+    events:
+      - http:
+          path: applications
+          method: get
+          cors: true
+          request:
+            parameters:
+              querystrings:
+                job_id: true
+    environment:
+      PYTHONPATH: /var/task
+
+custom:
+  pythonRequirements:
+    dockerizePip: true
+
+

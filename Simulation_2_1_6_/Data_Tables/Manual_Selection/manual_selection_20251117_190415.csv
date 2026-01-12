@@ -1,0 +1,2 @@
+Timestamp,Content_Request,Traced_Path,Selected_Router,Avg_cmBA
+2025-11-17 19:04:15.996895,cat_image12.jpg,Router5 -> Router8 -> Router11 -> Router14 -> Router17 -> Router20 -> Router23 -> Router26 -> Router27,Router23,0.20072486210396479
